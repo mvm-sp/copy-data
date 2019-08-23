@@ -1,0 +1,7 @@
+{
+    "host": "201.20.7.33",
+    "user": "postgres",
+    "pw": "TjYz3m",
+    "db": "nestbidb",
+    "port": "5890"
+}
