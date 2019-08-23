@@ -1,0 +1,1309 @@
+2019-2-26 16:01:10 - 1
+2019-2-26 16:02:03 - {"idClient":1,"name":"Delfos","connSettings":{"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"},"remoteDir":"/usr/home/dicomvix/move/delfos.csv","psql":"psql -U dicomvix -d clinux_delfos -c"}
+2019-2-26 16:26:41 - C:\projetos\BI\NEST\Copy-Data\write-to-nest.js
+2019-2-26 16:27:48 - [object Object]
+2019-2-26 16:30:02 - C:\projetos\BI\NEST\Copy-Data\write-to-nest.js
+2019-2-26 16:33:20 - C:\projetos\BI\NEST\Copy-Data\write-to-nest.js
+2019-2-26 16:35:39 -[WRITETONEST]- C:\projetos\BI\NEST\Copy-Data\write-to-nest.js
+2019-2-26 16:46:05 -[WRITETONEST]- postgres://postgres:TjYz3m@201.20.7.33:5890/nestbidb
+2019-2-26 16:51:30 -[WRITETONEST]- Truncated temp_indger
+2019-2-26 17:00:37 -[WRITETONEST]- Truncated temp_indger
+2019-2-26 17:05:21 -[WRITETONEST]- Truncated temp_indger
+2019-2-26 17:05:22 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-26 17:06:05 -[WRITETONEST]- Truncated temp_indger
+2019-2-26 17:06:05 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 12:13:40 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 12:13:41 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 12:14:42 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 12:14:42 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 12:14:45 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 12:15:06 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 12:15:06 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 12:15:09 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 12:16:05 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 12:16:05 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 12:16:08 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 13:55:36 -[READFROMCLINUX]- {Delfos}Begin writeFileDBSSH...
+2019-2-27 13:55:36 -[READFROMCLINUX]- {Delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-2-27 13:55:36 -[READFROMCLINUX]- {Delfos}New Client OK Delfos
+2019-2-27 13:55:37 -[READFROMCLINUX]- {Delfos}STDOUT: COPY 7011
+
+2019-2-27 13:55:37 -[READFROMCLINUX]- {Delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/WedFeb272019Delfos.csv Delfos
+2019-2-27 13:55:40 -[READFROMCLINUX]- {Delfos}Succesfully DownLoaded
+2019-2-27 13:55:40 -[READFROMCLINUX]- {Delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-2-27 14:07:46 -[READFROMCLINUX]- {Delfos}Begin writeFileDBSSH...
+2019-2-27 14:07:46 -[READFROMCLINUX]- {Delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-2-27 14:07:46 -[READFROMCLINUX]- {Delfos}New Client OK Delfos
+2019-2-27 14:07:47 -[READFROMCLINUX]- {Delfos}STDOUT: COPY 7011
+
+2019-2-27 14:07:47 -[READFROMCLINUX]- {Delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/WedFeb272019Delfos.csv
+2019-2-27 14:07:49 -[READFROMCLINUX]- {Delfos}Succesfully DownLoaded
+2019-2-27 14:07:50 -[READFROMCLINUX]- {Delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked2019-2-27 14:26:42 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 14:26:42 -[WRITETONEST]- Starting to read TueFeb272019Delfos.csv
+2019-2-27 14:26:42 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 14:26:42 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 14:26:42 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 14:26:45 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 14:26:45 -[WRITETONEST]- Successfully  ./history/TueFeb272019Delfos.csv  moved
+2019-2-27 14:32:05 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 14:32:05 -[WRITETONEST]- Starting to read TueFeb272019Delfos.csv
+2019-2-27 14:32:05 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 14:32:05 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 14:32:05 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 14:32:08 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 14:32:08 -[WRITETONEST]- Successfully  ./history/TueFeb272019Delfos.csv  moved
+2019-2-27 14:34:23 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 14:34:23 -[WRITETONEST]- Starting to read TueFeb272019Delfos.csv
+2019-2-27 14:34:23 -[WRITETONEST]- Successfully  ./history/TueFeb272019Delfos.csv  moved
+2019-2-27 14:34:23 -[WRITETONEST]- Successfully  ./history/TueFeb272019Delfos.csv  moved
+2019-2-27 14:34:23 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 14:40:36 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 14:44:44 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 14:46:32 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 14:46:32 -[WRITETONEST]- Starting to read TueFeb272019Delfos.csv
+2019-2-27 14:46:32 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 14:46:32 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 14:46:33 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 14:46:35 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 14:48:50 -[WRITETONEST]- Success!
+2019-2-27 15:01:08 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 15:01:08 -[WRITETONEST]- Starting to read TueFeb272019Delfos.csv
+2019-2-27 15:01:08 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:01:08 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:02:42 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 15:02:42 -[WRITETONEST]- Starting to read TueFeb272019Delfos.csv
+2019-2-27 15:02:42 -[WRITETONEST]- File Processed OK Success!
+2019-2-27 15:02:42 -[WRITETONEST]- File Processed OK Success!
+2019-2-27 15:02:42 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:02:42 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:02:42 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:02:42 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:02:42 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 15:02:42 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 15:02:48 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 15:02:54 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 15:29:40 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 15:29:40 -[WRITETONEST]- Starting to read TueFeb272019Delfos.csv
+2019-2-27 15:29:40 -[WRITETONEST]- File Processed OK Success!
+2019-2-27 15:29:40 -[WRITETONEST]- File Processed OK Success!
+2019-2-27 15:29:40 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:29:40 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:29:40 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 15:29:43 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 15:33:50 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 15:33:50 -[WRITETONEST]- File Processed OK Success!
+2019-2-27 15:33:50 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:33:51 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 15:33:54 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 15:36:45 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 15:36:45 -[WRITETONEST]- Successfully  ./history/TueFeb262019Delfos.csv  moved
+2019-2-27 15:36:45 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:46:30 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 15:46:30 -[WRITETONEST]- Successfully  ./history/TueFeb262019Delfos.csv  moved
+2019-2-27 15:46:30 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:54:48 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 15:54:48 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:54:49 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 15:54:51 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 15:56:47 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 15:56:47 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:56:47 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 15:56:50 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 15:57:33 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 15:57:33 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 15:57:34 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 15:57:37 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:00:07 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:00:49 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:02:25 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:04:02 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:04:02 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:04:02 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:04:05 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:05:42 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:05:42 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:05:43 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:05:45 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:07:01 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:07:01 -[WRITETONEST]- is this in the end?
+2019-2-27 16:07:01 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:07:01 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:07:04 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:07:51 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:07:51 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:07:52 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:07:54 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:09:41 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:09:55 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:09:55 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:09:55 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:09:58 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:19:06 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:19:06 -[WRITETONEST]- is this at the end?
+2019-2-27 16:19:06 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:19:06 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:19:09 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:20:24 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:20:24 -[WRITETONEST]- is this at the end?
+2019-2-27 16:20:24 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:20:25 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:20:27 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:25:44 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:25:44 -[WRITETONEST]- Starting executeAllTasks ./data/TueFeb262019Delfos.csv
+2019-2-27 16:25:44 -[WRITETONEST]- is this at the end?
+2019-2-27 16:28:19 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:28:19 -[WRITETONEST]- Starting executeAllTasks ./data/TueFeb262019Delfos.csv
+2019-2-27 16:28:19 -[WRITETONEST]- is this at the end?
+2019-2-27 16:28:20 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:28:20 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:28:23 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:29:22 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:29:22 -[WRITETONEST]- Starting executeAllTasks ./data/TueFeb262019Delfos.csv
+2019-2-27 16:29:22 -[WRITETONEST]- is this at the end?
+2019-2-27 16:29:24 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:29:25 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:29:27 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:31:16 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:31:16 -[WRITETONEST]- Starting executeAllTasks ./data/TueFeb262019Delfos.csv
+2019-2-27 16:31:16 -[WRITETONEST]- is this at the end?
+2019-2-27 16:31:18 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:31:19 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:31:21 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:31:21 -[WRITETONEST]- Successfully  ./history/TueFeb262019Delfos.csv  moved
+2019-2-27 16:31:31 -[WRITETONEST]- Starting to read TueFeb272019Delfos.csv
+2019-2-27 16:31:31 -[WRITETONEST]- Starting executeAllTasks ./data/TueFeb272019Delfos.csv
+2019-2-27 16:31:31 -[WRITETONEST]- is this at the end?
+2019-2-27 16:31:33 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:31:33 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:31:36 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:31:36 -[WRITETONEST]- Successfully  ./history/TueFeb272019Delfos.csv  moved
+2019-2-27 16:31:43 -[WRITETONEST]- Starting to read undefined
+2019-2-27 16:31:43 -[WRITETONEST]- Starting executeAllTasks ./data/undefined
+2019-2-27 16:31:43 -[WRITETONEST]- is this at the end?
+2019-2-27 16:31:45 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:36:17 -[WRITETONEST]- There are no files to be read
+2019-2-27 16:37:11 -[WRITETONEST]- Starting to read Delfos.csv
+2019-2-27 16:37:11 -[WRITETONEST]- Starting executeAllTasks ./data/Delfos.csv
+2019-2-27 16:37:12 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:37:12 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:37:15 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:37:15 -[WRITETONEST]- Successfully  ./history/Delfos.csv  moved
+2019-2-27 16:37:19 -[WRITETONEST]- Starting to read TueFeb262019Delfos.csv
+2019-2-27 16:37:19 -[WRITETONEST]- Starting executeAllTasks ./data/TueFeb262019Delfos.csv
+2019-2-27 16:37:20 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:37:20 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:37:23 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:37:23 -[WRITETONEST]- Successfully  ./history/TueFeb262019Delfos.csv  moved
+2019-2-27 16:37:26 -[WRITETONEST]- Starting to read TueFeb272019Delfos.csv
+2019-2-27 16:37:26 -[WRITETONEST]- Starting executeAllTasks ./data/TueFeb272019Delfos.csv
+2019-2-27 16:37:27 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 16:37:28 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 16:37:31 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 16:37:31 -[WRITETONEST]- Successfully  ./history/TueFeb272019Delfos.csv  moved
+2019-2-27 16:38:21 -[WRITETONEST]- There are no files to be read
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":1,"name":"delfos","connSettings":{"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"},"remoteDir":"/usr/home/dicomvix/move/delfos.csv","psql":"psql -U dicomvix -d clinux_delfos -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":2,"name":"bertinetti","connSettings":{"host":"192.168.10.201","port":22,"username":"dicomvix","password":"system98"},"remoteDir":"/usr/home/dicomvix/move/bertinetti.csv","psql":"psql -U dicomvix -d clinux_bertinetti -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":3,"name":"cdi-uberlandia","connSettings":{"host":"cdiub.zapto.org","port":1157,"username":"dicomvix","password":"system98"},"remoteDir":"/usr/home/dicomvix/move/cdiuberlandia.csv","psql":"psql -U dicomvix -d clinux_cdi -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":4,"name":"cdisalvador","connSettings":{"host":"cdisalvador.zapto.org","port":22,"username":"dicomvix","password":"system98"},"remoteDir":"/usr/home/dicomvix/move/cdisalvador.csv","psql":"psql -U dicomvix -d clinux_salvador -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":5,"name":"saosalvador","connSettings":{"host":"clinicasaosalvador.ddns.net","port":1157,"username":"dicomvix","password":"PCRDDVW%'&/"},"remoteDir":"/usr/home/dicomvix/move/saosalvador.csv","psql":"psql -U dicomvix -d clinux_saosalvador -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":6,"name":"cepem","connSettings":{"host":"clinicasaosalvador.ddns.net","port":1157,"username":"dicomvix","password":"PCRDDVW%'&/"},"remoteDir":"/home/clinuxweb/move/cepem.csv","psql":"psql -U dicomvix -d clinux_cepem -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":7,"name":"saomarcelo","connSettings":{"host":"saomarcelo.zapto.org","port":1157,"username":"dicomvix","password":"system98"},"remoteDir":"/usr/home/dicomvix/move/saomarcelo.csv","psql":"psql -U dicomvix -d clinux_saomarcelo -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":8,"name":"medicine","connSettings":{"host":"170.82.182.106","port":39802,"username":"dicomvix","password":"system98"},"remoteDir":"/usr/home/dicomvix/move/medicine.csv","psql":"psql -U dicomvix -d clinux_medicine -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":9,"name":"magnus","connSettings":{"host":"alfenas.zapto.org","port":22,"username":"dicomvix","password":"system98"},"remoteDir":"/usr/home/dicomvix/move/magnus.csv","psql":"psql -U dicomvix -d clinux_alfenas -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":10,"name":"megaimagen","connSettings":{"host":"187.92.71.161","port":1157,"username":"clinuxweb","password":"ClinuX99Fb"},"remoteDir":"/usr/home/clinuxweb/move/megaimagen.csv","psql":"psql -U clinux -d clinux_megaimagem -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":11,"name":"clirad","connSettings":{"host":"clirad.zapto.org","port":1157,"username":"dicomvix","password":"system98"},"remoteDir":"/usr/home/dicomvix/move/clirad.csv","psql":"psql -U dicomvix -d clinux_clirad_nova -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":12,"name":"rd-xavier","connSettings":{"host":"177.185.141.71","port":1157,"username":"dicomvix","password":"system98"},"remoteDir":"/usr/home/dicomvix/move/rd-xavier.csv","psql":"psql -U dicomvix -d clinux_medimagem -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":13,"name":"rad-med","connSettings":{"host":"radmed.zapto.org","port":1157,"username":"dicomvix","password":"system98"},"remoteDir":"/usr/home/dicomvix/move/rad-med.csv","psql":"psql -U dicomvix -d clinux_radmed -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":14,"name":"susga","connSettings":{"host":"177.99.226.20","port":1157,"username":"dicomvix","password":"system98"},"remoteDir":"/usr/home/dicomvix/move/susga.csv","psql":"psql -U dicomvix -d clinux_susga -c"}
+2019-2-27 19:46:10 -[READFROMCLINUX]- {"idClient":15,"name":"tomoclinica","connSettings":{"host":"177.99.226.20","port":2222,"username":"dicomvix","password":"system98"},"remoteDir":"/usr/home/dicomvix/move/tomoclinica.csv","psql":"psql -U dicomvix -d clinux_tomoclinica -c"}
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/dicomvix/move/delfos.csv ',' psql -U dicomvix -d clinux_delfos -c ' where idClient =  1
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/dicomvix/move/bertinetti.csv ',' psql -U dicomvix -d clinux_bertinetti -c ' where idClient =  2
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/dicomvix/move/cdiuberlandia.csv ',' psql -U dicomvix -d clinux_cdi -c ' where idClient =  3
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/dicomvix/move/cdisalvador.csv ',' psql -U dicomvix -d clinux_salvador -c ' where idClient =  4
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/dicomvix/move/saosalvador.csv ',' psql -U dicomvix -d clinux_saosalvador -c ' where idClient =  5
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /home/clinuxweb/move/cepem.csv ',' psql -U dicomvix -d clinux_cepem -c ' where idClient =  6
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/dicomvix/move/saomarcelo.csv ',' psql -U dicomvix -d clinux_saomarcelo -c ' where idClient =  7
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/dicomvix/move/medicine.csv ',' psql -U dicomvix -d clinux_medicine -c ' where idClient =  8
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/dicomvix/move/magnus.csv ',' psql -U dicomvix -d clinux_alfenas -c ' where idClient =  9
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/clinuxweb/move/megaimagen.csv ',' psql -U clinux -d clinux_megaimagem -c ' where idClient =  10
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/dicomvix/move/clirad.csv ',' psql -U dicomvix -d clinux_clirad_nova -c ' where idClient =  11
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/dicomvix/move/rd-xavier.csv ',' psql -U dicomvix -d clinux_medimagem -c ' where idClient =  12
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/dicomvix/move/rad-med.csv ',' psql -U dicomvix -d clinux_radmed -c ' where idClient =  13
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/dicomvix/move/susga.csv ',' psql -U dicomvix -d clinux_susga -c ' where idClient =  14
+2019-2-27 19:50:34 -[READFROMCLINUX]- ' /usr/home/dicomvix/move/tomoclinica.csv ',' psql -U dicomvix -d clinux_tomoclinica -c ' where idClient =  15
+2019-2-27 19:58:10 -[READFROMCLINUX]- {cdi-uberlandia}Begin writeFileDBSSH...
+2019-2-27 19:58:10 -[READFROMCLINUX]- {cdi-uberlandia}Testing ssh... {"host":"cdiub.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-27 19:58:10 -[READFROMCLINUX]- {cdi-uberlandia}New Client OK cdi-uberlandia
+2019-2-27 19:58:11 -[READFROMCLINUX]- {cdi-uberlandia}STDOUT: COPY 15415
+
+2019-2-27 19:58:11 -[READFROMCLINUX]- {cdi-uberlandia}preparing remote file /usr/home/dicomvix/move/cdiuberlandia.csv moving to ./data/WedFeb272019cdi-uberlandia.csv
+2019-2-27 19:58:17 -[READFROMCLINUX]- {cdi-uberlandia}Succesfully DownLoaded
+2019-2-27 19:58:17 -[READFROMCLINUX]- {cdi-uberlandia}/usr/home/dicomvix/move/cdiuberlandia.csv  file unlinked
+2019-2-27 19:58:37 -[READFROMCLINUX]- {cdisalvador}Begin writeFileDBSSH...
+2019-2-27 19:58:37 -[READFROMCLINUX]- {cdisalvador}Testing ssh... {"host":"cdisalvador.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-2-27 19:58:37 -[READFROMCLINUX]- {cdisalvador}New Client OK cdisalvador
+2019-2-27 19:58:40 -[READFROMCLINUX]- {cdisalvador}STDOUT: COPY 12152
+
+2019-2-27 19:58:40 -[READFROMCLINUX]- {cdisalvador}preparing remote file /usr/home/dicomvix/move/cdisalvador.csv moving to ./data/WedFeb272019cdisalvador.csv
+2019-2-27 19:58:49 -[READFROMCLINUX]- {cdisalvador}Succesfully DownLoaded
+2019-2-27 19:58:49 -[READFROMCLINUX]- {cdisalvador}/usr/home/dicomvix/move/cdisalvador.csv  file unlinked
+2019-2-27 19:58:59 -[READFROMCLINUX]- {cepem}Begin writeFileDBSSH...
+2019-2-27 19:58:59 -[READFROMCLINUX]- {cepem}Testing ssh... {"host":"clinicasaosalvador.ddns.net","port":1157,"username":"dicomvix","password":"PCRDDVW%'&/"}
+2019-2-27 19:58:59 -[READFROMCLINUX]- {cepem}New Client OK cepem
+2019-2-27 20:00:56 -[READFROMCLINUX]- {cepem}Begin writeFileDBSSH...
+2019-2-27 20:00:56 -[READFROMCLINUX]- {cepem}Testing ssh... {"host":"177.124.226.98","port":527,"username":"dicomvix","password":"ClinuX99Fb"}
+2019-2-27 20:00:56 -[READFROMCLINUX]- {cepem}New Client OK cepem
+2019-2-27 20:01:39 -[READFROMCLINUX]- {cepem}Begin writeFileDBSSH...
+2019-2-27 20:01:39 -[READFROMCLINUX]- {cepem}Testing ssh... {"host":"177.124.226.98","port":527,"username":"clinuxweb","password":"ClinuX99Fb"}
+2019-2-27 20:01:39 -[READFROMCLINUX]- {cepem}New Client OK cepem
+2019-2-27 20:01:43 -[READFROMCLINUX]- {cepem}STDOUT: COPY 45927
+
+2019-2-27 20:01:43 -[READFROMCLINUX]- {cepem}preparing remote file /home/clinuxweb/move/cepem.csv moving to ./data/WedFeb272019cepem.csv
+2019-2-27 20:01:48 -[READFROMCLINUX]- {cepem}Succesfully DownLoaded
+2019-2-27 20:01:48 -[READFROMCLINUX]- {cepem}/home/clinuxweb/move/cepem.csv  file unlinked
+2019-2-27 20:02:06 -[READFROMCLINUX]- {saomarcelo}Begin writeFileDBSSH...
+2019-2-27 20:02:06 -[READFROMCLINUX]- {saomarcelo}Testing ssh... {"host":"saomarcelo.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-27 20:02:06 -[READFROMCLINUX]- {saomarcelo}New Client OK saomarcelo
+2019-2-27 20:02:07 -[READFROMCLINUX]- {saomarcelo}STDOUT: COPY 17617
+
+2019-2-27 20:02:07 -[READFROMCLINUX]- {saomarcelo}preparing remote file /usr/home/dicomvix/move/saomarcelo.csv moving to ./data/WedFeb272019saomarcelo.csv
+2019-2-27 20:02:09 -[READFROMCLINUX]- {saomarcelo}Succesfully DownLoaded
+2019-2-27 20:02:09 -[READFROMCLINUX]- {saomarcelo}/usr/home/dicomvix/move/saomarcelo.csv  file unlinked
+2019-2-27 20:02:22 -[READFROMCLINUX]- {medicine}Begin writeFileDBSSH...
+2019-2-27 20:02:22 -[READFROMCLINUX]- {medicine}Testing ssh... {"host":"170.82.182.106","port":39802,"username":"dicomvix","password":"system98"}
+2019-2-27 20:02:22 -[READFROMCLINUX]- {medicine}New Client OK medicine
+2019-2-27 20:02:23 -[READFROMCLINUX]- {medicine}STDOUT: COPY 4837
+
+2019-2-27 20:02:24 -[READFROMCLINUX]- {medicine}preparing remote file /usr/home/dicomvix/move/medicine.csv moving to ./data/WedFeb272019medicine.csv
+2019-2-27 20:02:25 -[READFROMCLINUX]- {medicine}Succesfully DownLoaded
+2019-2-27 20:02:25 -[READFROMCLINUX]- {medicine}/usr/home/dicomvix/move/medicine.csv  file unlinked
+2019-2-27 20:02:31 -[READFROMCLINUX]- {magnus}Begin writeFileDBSSH...
+2019-2-27 20:02:31 -[READFROMCLINUX]- {magnus}Testing ssh... {"host":"alfenas.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-2-27 20:02:31 -[READFROMCLINUX]- {magnus}New Client OK magnus
+2019-2-27 20:02:32 -[READFROMCLINUX]- {magnus}STDOUT: COPY 3720
+
+2019-2-27 20:02:32 -[READFROMCLINUX]- {magnus}preparing remote file /usr/home/dicomvix/move/magnus.csv moving to ./data/WedFeb272019magnus.csv
+2019-2-27 20:02:34 -[READFROMCLINUX]- {magnus}Succesfully DownLoaded
+2019-2-27 20:02:34 -[READFROMCLINUX]- {magnus}/usr/home/dicomvix/move/magnus.csv  file unlinked
+2019-2-27 20:02:37 -[READFROMCLINUX]- {megaimagen}Begin writeFileDBSSH...
+2019-2-27 20:02:37 -[READFROMCLINUX]- {megaimagen}Testing ssh... {"host":"187.92.71.161","port":1157,"username":"clinuxweb","password":"ClinuX99Fb"}
+2019-2-27 20:02:37 -[READFROMCLINUX]- {megaimagen}New Client OK megaimagen
+2019-2-27 20:02:47 -[READFROMCLINUX]- {megaimagen}STDOUT: COPY 27148
+
+2019-2-27 20:02:47 -[READFROMCLINUX]- {megaimagen}preparing remote file /usr/home/clinuxweb/move/megaimagen.csv moving to ./data/WedFeb272019megaimagen.csv
+2019-2-27 20:02:50 -[READFROMCLINUX]- {megaimagen}Succesfully DownLoaded
+2019-2-27 20:02:50 -[READFROMCLINUX]- {megaimagen}/usr/home/clinuxweb/move/megaimagen.csv  file unlinked
+2019-2-27 20:02:56 -[READFROMCLINUX]- {clirad}Begin writeFileDBSSH...
+2019-2-27 20:02:56 -[READFROMCLINUX]- {clirad}Testing ssh... {"host":"clirad.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-27 20:02:56 -[READFROMCLINUX]- {clirad}New Client OK clirad
+2019-2-27 20:02:57 -[READFROMCLINUX]- {clirad}STDOUT: COPY 2970
+
+2019-2-27 20:02:57 -[READFROMCLINUX]- {clirad}preparing remote file /usr/home/dicomvix/move/clirad.csv moving to ./data/WedFeb272019clirad.csv
+2019-2-27 20:02:58 -[READFROMCLINUX]- {clirad}Succesfully DownLoaded
+2019-2-27 20:02:58 -[READFROMCLINUX]- {clirad}/usr/home/dicomvix/move/clirad.csv  file unlinked
+2019-2-27 20:03:03 -[READFROMCLINUX]- {rd-xavier}Begin writeFileDBSSH...
+2019-2-27 20:03:03 -[READFROMCLINUX]- {rd-xavier}Testing ssh... {"host":"177.185.141.71","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-27 20:03:03 -[READFROMCLINUX]- {rd-xavier}New Client OK rd-xavier
+2019-2-27 20:03:06 -[READFROMCLINUX]- {rd-xavier}STDOUT: COPY 6991
+
+2019-2-27 20:03:06 -[READFROMCLINUX]- {rd-xavier}preparing remote file /usr/home/dicomvix/move/rd-xavier.csv moving to ./data/WedFeb272019rd-xavier.csv
+2019-2-27 20:03:09 -[READFROMCLINUX]- {rd-xavier}Succesfully DownLoaded
+2019-2-27 20:03:09 -[READFROMCLINUX]- {rd-xavier}/usr/home/dicomvix/move/rd-xavier.csv  file unlinked
+2019-2-27 20:03:13 -[READFROMCLINUX]- {rad-med}Begin writeFileDBSSH...
+2019-2-27 20:03:13 -[READFROMCLINUX]- {rad-med}Testing ssh... {"host":"radmed.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-27 20:03:13 -[READFROMCLINUX]- {rad-med}New Client OK rad-med
+2019-2-27 20:03:14 -[READFROMCLINUX]- {rad-med}STDOUT: COPY 10940
+
+2019-2-27 20:03:14 -[READFROMCLINUX]- {rad-med}preparing remote file /usr/home/dicomvix/move/rad-med.csv moving to ./data/WedFeb272019rad-med.csv
+2019-2-27 20:03:30 -[READFROMCLINUX]- {rad-med}Succesfully DownLoaded
+2019-2-27 20:03:30 -[READFROMCLINUX]- {rad-med}/usr/home/dicomvix/move/rad-med.csv  file unlinked
+2019-2-27 20:03:40 -[READFROMCLINUX]- {susga}Begin writeFileDBSSH...
+2019-2-27 20:03:40 -[READFROMCLINUX]- {susga}Testing ssh... {"host":"177.99.226.20","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-27 20:03:40 -[READFROMCLINUX]- {susga}New Client OK susga
+2019-2-27 20:03:43 -[READFROMCLINUX]- {susga}STDOUT: COPY 13846
+
+2019-2-27 20:03:43 -[READFROMCLINUX]- {susga}preparing remote file /usr/home/dicomvix/move/susga.csv moving to ./data/WedFeb272019susga.csv
+2019-2-27 20:03:57 -[READFROMCLINUX]- {susga}Succesfully DownLoaded
+2019-2-27 20:03:57 -[READFROMCLINUX]- {susga}/usr/home/dicomvix/move/susga.csv  file unlinked
+2019-2-27 20:04:02 -[READFROMCLINUX]- {tomoclinica}Begin writeFileDBSSH...
+2019-2-27 20:04:02 -[READFROMCLINUX]- {tomoclinica}Testing ssh... {"host":"177.99.226.20","port":2222,"username":"dicomvix","password":"system98"}
+2019-2-27 20:04:02 -[READFROMCLINUX]- {tomoclinica}New Client OK tomoclinica
+2019-2-27 20:06:33 -[READFROMCLINUX]- {tomoclinica}Begin writeFileDBSSH...
+2019-2-27 20:06:33 -[READFROMCLINUX]- {tomoclinica}Testing ssh... {"host":"webpacs.tomoclinica.com.br","port":2222,"username":"dicomvix","password":"system98"}
+2019-2-27 20:06:33 -[READFROMCLINUX]- {tomoclinica}New Client OK tomoclinica
+2019-2-27 20:06:34 -[READFROMCLINUX]- {tomoclinica}STDOUT: COPY 6908
+
+2019-2-27 20:06:35 -[READFROMCLINUX]- {tomoclinica}preparing remote file /usr/home/dicomvix/move/tomoclinica.csv moving to ./data/WedFeb272019tomoclinica.csv
+2019-2-27 20:06:35 -[READFROMCLINUX]- {tomoclinica}Succesfully DownLoaded
+2019-2-27 20:06:35 -[READFROMCLINUX]- {tomoclinica}/usr/home/dicomvix/move/tomoclinica.csv  file unlinked
+2019-2-27 20:06:49 -[READFROMCLINUX]- {bertinetti}Begin writeFileDBSSH...
+2019-2-27 20:06:49 -[READFROMCLINUX]- {bertinetti}Testing ssh... {"host":"192.168.10.201","port":22,"username":"dicomvix","password":"system98"}
+2019-2-27 20:06:49 -[READFROMCLINUX]- {bertinetti}New Client OK bertinetti
+2019-2-27 20:08:04 -[WRITETONEST]- Starting to read WedFeb272019cdi-uberlandia.csv
+2019-2-27 20:08:04 -[WRITETONEST]- Starting executeAllTasks ./data/WedFeb272019cdi-uberlandia.csv
+2019-2-27 20:08:05 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 20:08:06 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 20:08:11 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 20:08:11 -[WRITETONEST]- Successfully  ./history/WedFeb272019cdi-uberlandia.csv  moved
+2019-2-27 20:08:15 -[WRITETONEST]- Starting to read WedFeb272019cdisalvador.csv
+2019-2-27 20:08:15 -[WRITETONEST]- Starting executeAllTasks ./data/WedFeb272019cdisalvador.csv
+2019-2-27 20:08:16 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 20:08:17 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 20:08:22 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 20:08:22 -[WRITETONEST]- Successfully  ./history/WedFeb272019cdisalvador.csv  moved
+2019-2-27 20:08:23 -[WRITETONEST]- Starting to read WedFeb272019cepem.csv
+2019-2-27 20:08:23 -[WRITETONEST]- Starting executeAllTasks ./data/WedFeb272019cepem.csv
+2019-2-27 20:08:24 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 20:08:30 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 20:08:48 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 20:08:48 -[WRITETONEST]- Successfully  ./history/WedFeb272019cepem.csv  moved
+2019-2-27 20:08:52 -[WRITETONEST]- Starting to read WedFeb272019clirad.csv
+2019-2-27 20:08:52 -[WRITETONEST]- Starting executeAllTasks ./data/WedFeb272019clirad.csv
+2019-2-27 20:08:53 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 20:08:53 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 20:08:54 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 20:08:54 -[WRITETONEST]- Successfully  ./history/WedFeb272019clirad.csv  moved
+2019-2-27 20:09:37 -[WRITETONEST]- Starting to read WedFeb272019magnus.csv
+2019-2-27 20:09:37 -[WRITETONEST]- Starting executeAllTasks ./data/WedFeb272019magnus.csv
+2019-2-27 20:09:38 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 20:09:39 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 20:09:40 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 20:09:40 -[WRITETONEST]- Successfully  ./history/WedFeb272019magnus.csv  moved
+2019-2-27 20:09:43 -[WRITETONEST]- Starting to read WedFeb272019medicine.csv
+2019-2-27 20:09:43 -[WRITETONEST]- Starting executeAllTasks ./data/WedFeb272019medicine.csv
+2019-2-27 20:09:44 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 20:09:44 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 20:09:46 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 20:09:46 -[WRITETONEST]- Successfully  ./history/WedFeb272019medicine.csv  moved
+2019-2-27 20:09:48 -[WRITETONEST]- Starting to read WedFeb272019megaimagen.csv
+2019-2-27 20:09:48 -[WRITETONEST]- Starting executeAllTasks ./data/WedFeb272019megaimagen.csv
+2019-2-27 20:09:49 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 20:09:52 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 20:10:03 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 20:10:03 -[WRITETONEST]- Successfully  ./history/WedFeb272019megaimagen.csv  moved
+2019-2-27 20:10:06 -[WRITETONEST]- Starting to read WedFeb272019rad-med.csv
+2019-2-27 20:10:06 -[WRITETONEST]- Starting executeAllTasks ./data/WedFeb272019rad-med.csv
+2019-2-27 20:10:07 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 20:10:07 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 20:10:12 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 20:10:12 -[WRITETONEST]- Successfully  ./history/WedFeb272019rad-med.csv  moved
+2019-2-27 20:10:13 -[WRITETONEST]- Starting to read WedFeb272019rd-xavier.csv
+2019-2-27 20:10:13 -[WRITETONEST]- Starting executeAllTasks ./data/WedFeb272019rd-xavier.csv
+2019-2-27 20:10:14 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 20:10:15 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 20:10:18 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 20:10:18 -[WRITETONEST]- Successfully  ./history/WedFeb272019rd-xavier.csv  moved
+2019-2-27 20:10:19 -[WRITETONEST]- Starting to read WedFeb272019saomarcelo.csv
+2019-2-27 20:10:19 -[WRITETONEST]- Starting executeAllTasks ./data/WedFeb272019saomarcelo.csv
+2019-2-27 20:10:20 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 20:10:21 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 20:10:29 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 20:10:29 -[WRITETONEST]- Successfully  ./history/WedFeb272019saomarcelo.csv  moved
+2019-2-27 20:10:31 -[WRITETONEST]- Starting to read WedFeb272019susga.csv
+2019-2-27 20:10:31 -[WRITETONEST]- Starting executeAllTasks ./data/WedFeb272019susga.csv
+2019-2-27 20:10:32 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 20:10:32 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 20:10:38 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 20:10:38 -[WRITETONEST]- Successfully  ./history/WedFeb272019susga.csv  moved
+2019-2-27 20:10:41 -[WRITETONEST]- Starting to read WedFeb272019tomoclinica.csv
+2019-2-27 20:10:41 -[WRITETONEST]- Starting executeAllTasks ./data/WedFeb272019tomoclinica.csv
+2019-2-27 20:10:42 -[WRITETONEST]- Truncated temp_indger
+2019-2-27 20:10:42 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-27 20:10:45 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-27 20:10:45 -[WRITETONEST]- Successfully  ./history/WedFeb272019tomoclinica.csv  moved
+2019-2-28 10:29:55 -[READFROMCLINUX]- {bertinetti}Begin writeFileDBSSH...
+2019-2-28 10:29:55 -[READFROMCLINUX]- {bertinetti}Testing ssh... {"host":"191.33.180.195","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-28 10:29:55 -[READFROMCLINUX]- {bertinetti}New Client OK bertinetti
+2019-2-28 10:30:02 -[READFROMCLINUX]- {bertinetti}STDOUT: COPY 9259
+
+2019-2-28 10:30:02 -[READFROMCLINUX]- {bertinetti}preparing remote file /usr/home/dicomvix/move/bertinetti.csv moving to ./data/ThuFeb282019bertinetti.csv
+2019-2-28 10:30:22 -[READFROMCLINUX]- {bertinetti}Succesfully DownLoaded
+2019-2-28 10:30:22 -[READFROMCLINUX]- {bertinetti}/usr/home/dicomvix/move/bertinetti.csv  file unlinked
+2019-2-28 10:30:54 -[WRITETONEST]- Starting to read ThuFeb282019bertinetti.csv
+2019-2-28 10:30:54 -[WRITETONEST]- Starting executeAllTasks ./data/ThuFeb282019bertinetti.csv
+2019-2-28 10:30:55 -[WRITETONEST]- Truncated temp_indger
+2019-2-28 10:30:55 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-28 10:31:00 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-28 10:31:00 -[WRITETONEST]- Successfully  ./history/ThuFeb282019bertinetti.csv  moved
+2019-2-28 16:09:43 -[READFROMCLINUX]- {saosalvador}Begin writeFileDBSSH...
+2019-2-28 16:09:43 -[READFROMCLINUX]- {saosalvador}Testing ssh... {"host":"clinicasaosalvador.ddns.net","port":1157,"username":"dicomvix","password":"PCRDDVW%'&/"}
+2019-2-28 16:09:43 -[READFROMCLINUX]- {saosalvador}New Client OK saosalvador
+2019-2-28 16:11:23 -[READFROMCLINUX]- {saosalvador}Begin writeFileDBSSH...
+2019-2-28 16:11:23 -[READFROMCLINUX]- {saosalvador}Testing ssh... {"host":"clinicasaosalvador.ddns.net","port":1157,"username":"dicomvix","password":"GTESSA@2018"}
+2019-2-28 16:11:23 -[READFROMCLINUX]- {saosalvador}New Client OK saosalvador
+2019-2-28 16:11:24 -[READFROMCLINUX]- {saosalvador}STDOUT: COPY 9384
+
+2019-2-28 16:11:24 -[READFROMCLINUX]- {saosalvador}preparing remote file /usr/home/dicomvix/move/saosalvador.csv moving to ./data/ThuFeb282019saosalvador.csv
+2019-2-28 16:11:27 -[READFROMCLINUX]- {saosalvador}Succesfully DownLoaded
+2019-2-28 16:11:27 -[READFROMCLINUX]- {saosalvador}/usr/home/dicomvix/move/saosalvador.csv  file unlinked
+2019-2-28 16:11:41 -[WRITETONEST]- Starting to read ThuFeb282019saosalvador.csv
+2019-2-28 16:11:41 -[WRITETONEST]- Starting executeAllTasks ./data/ThuFeb282019saosalvador.csv
+2019-2-28 16:11:42 -[WRITETONEST]- Truncated temp_indger
+2019-2-28 16:11:43 -[WRITETONEST]- Completed loading data into temp_indger
+2019-2-28 16:11:47 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-2-28 16:11:47 -[WRITETONEST]- Successfully  ./history/ThuFeb282019saosalvador.csv  moved
+2019-2-28 18:19:18 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-2-28 18:19:18 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-2-28 18:19:18 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-2-28 18:19:19 -[READFROMCLINUX]- {delfos}STDOUT: COPY 7011
+
+2019-2-28 18:19:19 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/ThuFeb282019delfos.csv
+2019-2-28 18:19:22 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-2-28 18:19:22 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-2-28 18:19:52 -[READFROMCLINUX]- {bertinetti}Begin writeFileDBSSH...
+2019-2-28 18:19:52 -[READFROMCLINUX]- {bertinetti}Testing ssh... {"host":"191.33.180.195","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-28 18:19:52 -[READFROMCLINUX]- {bertinetti}New Client OK bertinetti
+2019-2-28 18:19:56 -[READFROMCLINUX]- {bertinetti}STDOUT: COPY 9259
+
+2019-2-28 18:19:56 -[READFROMCLINUX]- {bertinetti}preparing remote file /usr/home/dicomvix/move/bertinetti.csv moving to ./data/ThuFeb282019bertinetti.csv
+2019-2-28 18:20:14 -[READFROMCLINUX]- {bertinetti}Succesfully DownLoaded
+2019-2-28 18:20:14 -[READFROMCLINUX]- {bertinetti}/usr/home/dicomvix/move/bertinetti.csv  file unlinked
+2019-2-28 18:24:55 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-2-28 18:24:55 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-2-28 18:24:55 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-2-28 18:24:56 -[READFROMCLINUX]- {delfos}STDOUT: COPY 7011
+
+2019-2-28 18:24:56 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/ThuFeb282019delfos.csv
+2019-2-28 18:24:58 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-2-28 18:24:58 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-2-28 18:25:28 -[READFROMCLINUX]- {bertinetti}Begin writeFileDBSSH...
+2019-2-28 18:25:28 -[READFROMCLINUX]- {bertinetti}Testing ssh... {"host":"191.33.180.195","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-28 18:25:28 -[READFROMCLINUX]- {bertinetti}New Client OK bertinetti
+2019-2-28 18:25:29 -[READFROMCLINUX]- {bertinetti}STDOUT: COPY 9259
+
+2019-2-28 18:25:29 -[READFROMCLINUX]- {bertinetti}preparing remote file /usr/home/dicomvix/move/bertinetti.csv moving to ./data/ThuFeb282019bertinetti.csv
+2019-2-28 18:25:48 -[READFROMCLINUX]- {bertinetti}Succesfully DownLoaded
+2019-2-28 18:25:48 -[READFROMCLINUX]- {bertinetti}/usr/home/dicomvix/move/bertinetti.csv  file unlinked
+2019-2-28 18:26:18 -[READFROMCLINUX]- {cdi-uberlandia}Begin writeFileDBSSH...
+2019-2-28 18:26:18 -[READFROMCLINUX]- {cdi-uberlandia}Testing ssh... {"host":"cdiub.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-28 18:26:18 -[READFROMCLINUX]- {cdi-uberlandia}New Client OK cdi-uberlandia
+2019-2-28 18:26:19 -[READFROMCLINUX]- {cdi-uberlandia}STDOUT: COPY 15415
+
+2019-2-28 18:26:19 -[READFROMCLINUX]- {cdi-uberlandia}preparing remote file /usr/home/dicomvix/move/cdiuberlandia.csv moving to ./data/ThuFeb282019cdi-uberlandia.csv
+2019-2-28 18:26:25 -[READFROMCLINUX]- {cdi-uberlandia}Succesfully DownLoaded
+2019-2-28 18:26:25 -[READFROMCLINUX]- {cdi-uberlandia}/usr/home/dicomvix/move/cdiuberlandia.csv  file unlinked
+2019-2-28 18:26:55 -[READFROMCLINUX]- {cdisalvador}Begin writeFileDBSSH...
+2019-2-28 18:26:55 -[READFROMCLINUX]- {cdisalvador}Testing ssh... {"host":"cdisalvador.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-2-28 18:26:55 -[READFROMCLINUX]- {cdisalvador}New Client OK cdisalvador
+2019-2-28 18:26:57 -[READFROMCLINUX]- {cdisalvador}STDOUT: COPY 12152
+
+2019-2-28 18:26:57 -[READFROMCLINUX]- {cdisalvador}preparing remote file /usr/home/dicomvix/move/cdisalvador.csv moving to ./data/ThuFeb282019cdisalvador.csv
+2019-2-28 18:27:07 -[READFROMCLINUX]- {cdisalvador}Succesfully DownLoaded
+2019-2-28 18:27:07 -[READFROMCLINUX]- {cdisalvador}/usr/home/dicomvix/move/cdisalvador.csv  file unlinked
+2019-2-28 18:27:37 -[READFROMCLINUX]- {saosalvador}Begin writeFileDBSSH...
+2019-2-28 18:27:37 -[READFROMCLINUX]- {saosalvador}Testing ssh... {"host":"clinicasaosalvador.ddns.net","port":1157,"username":"dicomvix","password":"GTESSA@2018"}
+2019-2-28 18:27:37 -[READFROMCLINUX]- {saosalvador}New Client OK saosalvador
+2019-2-28 18:27:38 -[READFROMCLINUX]- {saosalvador}STDOUT: COPY 9384
+
+2019-2-28 18:27:38 -[READFROMCLINUX]- {saosalvador}preparing remote file /usr/home/dicomvix/move/saosalvador.csv moving to ./data/ThuFeb282019saosalvador.csv
+2019-2-28 18:27:51 -[READFROMCLINUX]- {saosalvador}Succesfully DownLoaded
+2019-2-28 18:27:51 -[READFROMCLINUX]- {saosalvador}/usr/home/dicomvix/move/saosalvador.csv  file unlinked
+2019-2-28 18:28:21 -[READFROMCLINUX]- {cepem}Begin writeFileDBSSH...
+2019-2-28 18:28:21 -[READFROMCLINUX]- {cepem}Testing ssh... {"host":"177.124.226.98","port":527,"username":"clinuxweb","password":"ClinuX99Fb"}
+2019-2-28 18:28:21 -[READFROMCLINUX]- {cepem}New Client OK cepem
+2019-2-28 18:28:25 -[READFROMCLINUX]- {cepem}STDOUT: COPY 45927
+
+2019-2-28 18:28:25 -[READFROMCLINUX]- {cepem}preparing remote file /home/clinuxweb/move/cepem.csv moving to ./data/ThuFeb282019cepem.csv
+2019-2-28 18:28:29 -[READFROMCLINUX]- {cepem}Succesfully DownLoaded
+2019-2-28 18:28:29 -[READFROMCLINUX]- {cepem}/home/clinuxweb/move/cepem.csv  file unlinked
+2019-2-28 18:28:59 -[READFROMCLINUX]- {saomarcelo}Begin writeFileDBSSH...
+2019-2-28 18:28:59 -[READFROMCLINUX]- {saomarcelo}Testing ssh... {"host":"saomarcelo.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-28 18:28:59 -[READFROMCLINUX]- {saomarcelo}New Client OK saomarcelo
+2019-2-28 18:29:00 -[READFROMCLINUX]- {saomarcelo}STDOUT: COPY 17617
+
+2019-2-28 18:29:00 -[READFROMCLINUX]- {saomarcelo}preparing remote file /usr/home/dicomvix/move/saomarcelo.csv moving to ./data/ThuFeb282019saomarcelo.csv
+2019-2-28 18:29:02 -[READFROMCLINUX]- {saomarcelo}Succesfully DownLoaded
+2019-2-28 18:29:02 -[READFROMCLINUX]- {saomarcelo}/usr/home/dicomvix/move/saomarcelo.csv  file unlinked
+2019-2-28 18:29:28 -[READFROMCLINUX]- {medicine}Begin writeFileDBSSH...
+2019-2-28 18:29:28 -[READFROMCLINUX]- {medicine}Testing ssh... {"host":"170.82.182.106","port":39802,"username":"dicomvix","password":"system98"}
+2019-2-28 18:29:28 -[READFROMCLINUX]- {medicine}New Client OK medicine
+2019-2-28 18:29:30 -[READFROMCLINUX]- {medicine}STDOUT: COPY 4837
+
+2019-2-28 18:29:30 -[READFROMCLINUX]- {medicine}preparing remote file /usr/home/dicomvix/move/medicine.csv moving to ./data/ThuFeb282019medicine.csv
+2019-2-28 18:29:32 -[READFROMCLINUX]- {medicine}Succesfully DownLoaded
+2019-2-28 18:29:32 -[READFROMCLINUX]- {medicine}/usr/home/dicomvix/move/medicine.csv  file unlinked
+2019-2-28 18:30:02 -[READFROMCLINUX]- {magnus}Begin writeFileDBSSH...
+2019-2-28 18:30:02 -[READFROMCLINUX]- {magnus}Testing ssh... {"host":"alfenas.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-2-28 18:30:02 -[READFROMCLINUX]- {magnus}New Client OK magnus
+2019-2-28 18:30:06 -[READFROMCLINUX]- {magnus}STDOUT: COPY 3720
+
+2019-2-28 18:30:06 -[READFROMCLINUX]- {magnus}preparing remote file /usr/home/dicomvix/move/magnus.csv moving to ./data/ThuFeb282019magnus.csv
+2019-2-28 18:30:08 -[READFROMCLINUX]- {magnus}Succesfully DownLoaded
+2019-2-28 18:30:08 -[READFROMCLINUX]- {magnus}/usr/home/dicomvix/move/magnus.csv  file unlinked
+2019-2-28 18:30:24 -[READFROMCLINUX]- {megaimagen}Begin writeFileDBSSH...
+2019-2-28 18:30:24 -[READFROMCLINUX]- {megaimagen}Testing ssh... {"host":"187.92.71.161","port":1157,"username":"clinuxweb","password":"ClinuX99Fb"}
+2019-2-28 18:30:24 -[READFROMCLINUX]- {megaimagen}New Client OK megaimagen
+2019-2-28 18:30:29 -[READFROMCLINUX]- {megaimagen}STDOUT: COPY 27148
+
+2019-2-28 18:30:29 -[READFROMCLINUX]- {megaimagen}preparing remote file /usr/home/clinuxweb/move/megaimagen.csv moving to ./data/ThuFeb282019megaimagen.csv
+2019-2-28 18:30:32 -[READFROMCLINUX]- {megaimagen}Succesfully DownLoaded
+2019-2-28 18:30:32 -[READFROMCLINUX]- {megaimagen}/usr/home/clinuxweb/move/megaimagen.csv  file unlinked
+2019-2-28 18:31:02 -[READFROMCLINUX]- {clirad}Begin writeFileDBSSH...
+2019-2-28 18:31:02 -[READFROMCLINUX]- {clirad}Testing ssh... {"host":"clirad.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-28 18:31:02 -[READFROMCLINUX]- {clirad}New Client OK clirad
+2019-2-28 18:31:02 -[READFROMCLINUX]- {clirad}STDOUT: COPY 2970
+
+2019-2-28 18:31:02 -[READFROMCLINUX]- {clirad}preparing remote file /usr/home/dicomvix/move/clirad.csv moving to ./data/ThuFeb282019clirad.csv
+2019-2-28 18:31:03 -[READFROMCLINUX]- {clirad}Succesfully DownLoaded
+2019-2-28 18:31:03 -[READFROMCLINUX]- {clirad}/usr/home/dicomvix/move/clirad.csv  file unlinked
+2019-2-28 18:31:33 -[READFROMCLINUX]- {rd-xavier}Begin writeFileDBSSH...
+2019-2-28 18:31:33 -[READFROMCLINUX]- {rd-xavier}Testing ssh... {"host":"177.185.141.71","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-28 18:31:33 -[READFROMCLINUX]- {rd-xavier}New Client OK rd-xavier
+2019-2-28 18:31:34 -[READFROMCLINUX]- {rd-xavier}STDOUT: COPY 6991
+
+2019-2-28 18:31:34 -[READFROMCLINUX]- {rd-xavier}preparing remote file /usr/home/dicomvix/move/rd-xavier.csv moving to ./data/ThuFeb282019rd-xavier.csv
+2019-2-28 18:31:36 -[READFROMCLINUX]- {rd-xavier}Succesfully DownLoaded
+2019-2-28 18:31:37 -[READFROMCLINUX]- {rd-xavier}/usr/home/dicomvix/move/rd-xavier.csv  file unlinked
+2019-2-28 18:32:07 -[READFROMCLINUX]- {rad-med}Begin writeFileDBSSH...
+2019-2-28 18:32:07 -[READFROMCLINUX]- {rad-med}Testing ssh... {"host":"radmed.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-28 18:32:07 -[READFROMCLINUX]- {rad-med}New Client OK rad-med
+2019-2-28 18:32:09 -[READFROMCLINUX]- {rad-med}STDOUT: COPY 10939
+
+2019-2-28 18:32:09 -[READFROMCLINUX]- {rad-med}preparing remote file /usr/home/dicomvix/move/rad-med.csv moving to ./data/ThuFeb282019rad-med.csv
+2019-2-28 18:32:25 -[READFROMCLINUX]- {rad-med}Succesfully DownLoaded
+2019-2-28 18:32:25 -[READFROMCLINUX]- {rad-med}/usr/home/dicomvix/move/rad-med.csv  file unlinked
+2019-2-28 18:32:55 -[READFROMCLINUX]- {susga}Begin writeFileDBSSH...
+2019-2-28 18:32:55 -[READFROMCLINUX]- {susga}Testing ssh... {"host":"177.99.226.20","port":1157,"username":"dicomvix","password":"system98"}
+2019-2-28 18:32:55 -[READFROMCLINUX]- {susga}New Client OK susga
+2019-2-28 18:32:56 -[READFROMCLINUX]- {susga}STDOUT: COPY 13846
+
+2019-2-28 18:32:56 -[READFROMCLINUX]- {susga}preparing remote file /usr/home/dicomvix/move/susga.csv moving to ./data/ThuFeb282019susga.csv
+2019-2-28 18:33:06 -[READFROMCLINUX]- {susga}Succesfully DownLoaded
+2019-2-28 18:33:06 -[READFROMCLINUX]- {susga}/usr/home/dicomvix/move/susga.csv  file unlinked
+2019-2-28 18:33:36 -[READFROMCLINUX]- {tomoclinica}Begin writeFileDBSSH...
+2019-2-28 18:33:36 -[READFROMCLINUX]- {tomoclinica}Testing ssh... {"host":"webpacs.tomoclinica.com.br","port":2222,"username":"dicomvix","password":"system98"}
+2019-2-28 18:33:36 -[READFROMCLINUX]- {tomoclinica}New Client OK tomoclinica
+2019-2-28 18:33:37 -[READFROMCLINUX]- {tomoclinica}STDOUT: COPY 6908
+
+2019-2-28 18:33:37 -[READFROMCLINUX]- {tomoclinica}preparing remote file /usr/home/dicomvix/move/tomoclinica.csv moving to ./data/ThuFeb282019tomoclinica.csv
+2019-2-28 18:33:38 -[READFROMCLINUX]- {tomoclinica}Succesfully DownLoaded
+2019-2-28 18:33:38 -[READFROMCLINUX]- {tomoclinica}/usr/home/dicomvix/move/tomoclinica.csv  file unlinked
+2019-3-1 10:49:50 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-1 10:49:50 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-1 10:49:50 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-1 10:50:22 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-1 10:50:22 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-1 10:50:22 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-1 10:50:23 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8251
+
+2019-3-1 10:50:23 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/FriMar012019delfos.csv
+2019-3-1 10:50:28 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-1 10:50:28 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-1 10:54:15 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-1 10:54:15 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-1 10:54:15 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-1 10:54:16 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8251
+
+2019-3-1 10:54:16 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/FriMar012019delfos.csv
+2019-3-1 10:54:20 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-1 10:54:20 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-1 10:54:43 -[WRITETONEST]- Starting to read arq.txt
+2019-3-1 10:54:43 -[WRITETONEST]- Starting executeAllTasks ./data/arq.txt
+2019-3-1 10:54:44 -[WRITETONEST]- Truncated temp_indger
+2019-3-1 10:54:44 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-1 10:54:44 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-1 10:54:44 -[WRITETONEST]- Successfully  ./history/arq.txt  moved
+2019-3-1 10:57:10 -[WRITETONEST]- Starting to read FriMar012019delfos.csv
+2019-3-1 10:57:10 -[WRITETONEST]- Starting executeAllTasks ./data/FriMar012019delfos.csv
+2019-3-1 10:57:11 -[WRITETONEST]- Truncated temp_indger
+2019-3-1 10:57:12 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-1 10:57:15 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-1 10:57:15 -[WRITETONEST]- Successfully  ./history/FriMar012019delfos.csv  moved
+2019-3-1 11:07:44 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-1 11:07:44 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-1 11:07:44 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-1 11:07:45 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8252
+
+2019-3-1 11:07:45 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/FriMar012019delfos.csv
+2019-3-1 11:07:47 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-1 11:07:47 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-1 11:10:11 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-1 11:10:11 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-1 11:10:11 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-1 11:10:12 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8253
+
+2019-3-1 11:10:12 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/FriMar012019delfos.csv
+2019-3-1 11:10:14 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-1 11:10:14 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-1 11:11:49 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-1 11:11:49 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-1 11:11:49 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-1 11:11:49 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8253
+
+2019-3-1 11:11:50 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/FriMar012019delfos.csv
+2019-3-1 11:11:53 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-1 11:11:53 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-1 11:14:52 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-1 11:14:52 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-1 11:14:52 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-1 11:14:52 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8253
+
+2019-3-1 11:14:53 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/FriMar012019delfos.csv
+2019-3-1 11:14:57 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-1 11:14:57 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-1 11:15:46 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-1 11:15:46 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-1 11:15:46 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-1 11:15:47 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8253
+
+2019-3-1 11:15:47 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/FriMar012019delfos.csv
+2019-3-1 11:15:51 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-1 11:15:51 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-1 11:41:44 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-1 11:41:44 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-1 11:41:44 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-1 11:41:45 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8253
+
+2019-3-1 11:41:45 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/FriMar012019delfos.csv
+2019-3-1 11:41:49 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-1 11:41:49 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-1 11:42:19 -[WRITETONEST]- Starting to read FriMar012019delfos.csv
+2019-3-1 11:42:19 -[WRITETONEST]- Starting executeAllTasks ./data/FriMar012019delfos.csv
+2019-3-1 11:42:20 -[WRITETONEST]- Truncated temp_indger
+2019-3-1 11:42:20 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-1 11:42:24 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-1 11:42:24 -[WRITETONEST]- Successfully  ./history/FriMar012019delfos.csv  moved
+2019-3-1 11:42:24 -[READFROMCLINUX]- {bertinetti}Begin writeFileDBSSH...
+2019-3-1 11:42:24 -[READFROMCLINUX]- {bertinetti}Testing ssh... {"host":"191.33.180.195","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-1 11:42:24 -[READFROMCLINUX]- {bertinetti}New Client OK bertinetti
+2019-3-1 11:42:43 -[READFROMCLINUX]- {bertinetti}STDOUT: COPY 10033
+
+2019-3-1 11:42:43 -[READFROMCLINUX]- {bertinetti}preparing remote file /usr/home/dicomvix/move/bertinetti.csv moving to ./data/FriMar012019bertinetti.csv
+2019-3-1 11:46:55 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-1 11:46:55 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-1 11:46:55 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-1 11:46:56 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8253
+
+2019-3-1 11:46:56 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/FriMar012019delfos.csv
+2019-3-1 11:47:00 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-1 11:47:00 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-1 11:47:20 -[WRITETONEST]- Starting to read FriMar012019delfos.csv
+2019-3-1 11:47:20 -[WRITETONEST]- Starting executeAllTasks ./data/FriMar012019delfos.csv
+2019-3-1 11:47:21 -[WRITETONEST]- Truncated temp_indger
+2019-3-1 11:47:21 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-1 11:47:25 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-1 11:47:25 -[WRITETONEST]- Successfully  ./history/FriMar012019delfos.csv  moved
+2019-3-1 11:47:35 -[READFROMCLINUX]- {bertinetti}Begin writeFileDBSSH...
+2019-3-1 11:47:35 -[READFROMCLINUX]- {bertinetti}Testing ssh... {"host":"191.33.180.195","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-1 11:47:35 -[READFROMCLINUX]- {bertinetti}New Client OK bertinetti
+2019-3-1 11:48:02 -[WRITETONEST]- There are no files to be read
+2019-3-1 11:51:57 -[READFROMCLINUX]- {bertinetti}Begin writeFileDBSSH...
+2019-3-1 11:51:57 -[READFROMCLINUX]- {bertinetti}Testing ssh... {"host":"191.33.180.195","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-1 11:51:57 -[READFROMCLINUX]- {bertinetti}New Client OK bertinetti
+2019-3-1 11:51:58 -[READFROMCLINUX]- {bertinetti}STDOUT: COPY 10033
+
+2019-3-1 11:51:58 -[READFROMCLINUX]- {bertinetti}preparing remote file /usr/home/dicomvix/move/bertinetti.csv moving to ./data/FriMar012019bertinetti.csv
+2019-3-1 11:52:25 -[READFROMCLINUX]- {bertinetti}Succesfully DownLoaded
+2019-3-1 11:52:25 -[READFROMCLINUX]- {bertinetti}/usr/home/dicomvix/move/bertinetti.csv  file unlinked
+2019-3-1 11:52:39 -[READFROMCLINUX]- {cdi-uberlandia}Begin writeFileDBSSH...
+2019-3-1 11:52:39 -[READFROMCLINUX]- {cdi-uberlandia}Testing ssh... {"host":"cdiub.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-1 11:52:39 -[READFROMCLINUX]- {cdi-uberlandia}New Client OK cdi-uberlandia
+2019-3-1 11:52:41 -[READFROMCLINUX]- {cdi-uberlandia}STDOUT: COPY 15958
+
+2019-3-1 11:52:41 -[READFROMCLINUX]- {cdi-uberlandia}preparing remote file /usr/home/dicomvix/move/cdiuberlandia.csv moving to ./data/FriMar012019cdi-uberlandia.csv
+2019-3-1 11:52:47 -[READFROMCLINUX]- {cdi-uberlandia}Succesfully DownLoaded
+2019-3-1 11:52:47 -[READFROMCLINUX]- {cdi-uberlandia}/usr/home/dicomvix/move/cdiuberlandia.csv  file unlinked
+2019-3-1 11:52:55 -[READFROMCLINUX]- {cdisalvador}Begin writeFileDBSSH...
+2019-3-1 11:52:55 -[READFROMCLINUX]- {cdisalvador}Testing ssh... {"host":"cdisalvador.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-3-1 11:52:55 -[READFROMCLINUX]- {cdisalvador}New Client OK cdisalvador
+2019-3-1 11:52:58 -[READFROMCLINUX]- {cdisalvador}STDOUT: COPY 13583
+
+2019-3-1 11:52:58 -[READFROMCLINUX]- {cdisalvador}preparing remote file /usr/home/dicomvix/move/cdisalvador.csv moving to ./data/FriMar012019cdisalvador.csv
+2019-3-1 11:53:11 -[READFROMCLINUX]- {cdisalvador}Succesfully DownLoaded
+2019-3-1 11:53:11 -[READFROMCLINUX]- {cdisalvador}/usr/home/dicomvix/move/cdisalvador.csv  file unlinked
+2019-3-1 11:54:32 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-1 11:54:32 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-1 11:54:32 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-1 11:54:32 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8253
+
+2019-3-1 11:54:32 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/FriMar012019delfos.csv
+2019-3-1 11:54:37 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-1 11:54:37 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-1 11:54:57 -[READFROMCLINUX]- {bertinetti}Begin writeFileDBSSH...
+2019-3-1 11:54:57 -[READFROMCLINUX]- {bertinetti}Testing ssh... {"host":"191.33.180.195","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-1 11:54:57 -[READFROMCLINUX]- {bertinetti}New Client OK bertinetti
+2019-3-1 11:54:58 -[READFROMCLINUX]- {bertinetti}STDOUT: COPY 10033
+
+2019-3-1 11:54:58 -[READFROMCLINUX]- {bertinetti}preparing remote file /usr/home/dicomvix/move/bertinetti.csv moving to ./data/FriMar012019bertinetti.csv
+2019-3-1 11:55:46 -[READFROMCLINUX]- {bertinetti}Succesfully DownLoaded
+2019-3-1 11:55:46 -[READFROMCLINUX]- {bertinetti}/usr/home/dicomvix/move/bertinetti.csv  file unlinked
+2019-3-1 11:56:06 -[READFROMCLINUX]- {cdi-uberlandia}Begin writeFileDBSSH...
+2019-3-1 11:56:06 -[READFROMCLINUX]- {cdi-uberlandia}Testing ssh... {"host":"cdiub.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-1 11:56:06 -[READFROMCLINUX]- {cdi-uberlandia}New Client OK cdi-uberlandia
+2019-3-1 11:56:07 -[READFROMCLINUX]- {cdi-uberlandia}STDOUT: COPY 15958
+
+2019-3-1 11:56:07 -[READFROMCLINUX]- {cdi-uberlandia}preparing remote file /usr/home/dicomvix/move/cdiuberlandia.csv moving to ./data/FriMar012019cdi-uberlandia.csv
+2019-3-1 11:56:13 -[READFROMCLINUX]- {cdi-uberlandia}Succesfully DownLoaded
+2019-3-1 11:56:13 -[READFROMCLINUX]- {cdi-uberlandia}/usr/home/dicomvix/move/cdiuberlandia.csv  file unlinked
+2019-3-1 11:57:26 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-1 11:57:26 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-1 11:57:26 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-1 11:57:27 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8253
+
+2019-3-1 11:57:27 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/FriMar012019delfos.csv
+2019-3-1 11:57:31 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-1 11:57:31 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-1 11:57:36 -[READFROMCLINUX]- {bertinetti}Begin writeFileDBSSH...
+2019-3-1 11:57:36 -[READFROMCLINUX]- {bertinetti}Testing ssh... {"host":"191.33.180.195","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-1 11:57:36 -[READFROMCLINUX]- {bertinetti}New Client OK bertinetti
+2019-3-1 11:57:37 -[READFROMCLINUX]- {bertinetti}STDOUT: COPY 10033
+
+2019-3-1 11:57:37 -[READFROMCLINUX]- {bertinetti}preparing remote file /usr/home/dicomvix/move/bertinetti.csv moving to ./data/FriMar012019bertinetti.csv
+2019-3-1 11:58:03 -[READFROMCLINUX]- {bertinetti}Succesfully DownLoaded
+2019-3-1 11:58:03 -[READFROMCLINUX]- {bertinetti}/usr/home/dicomvix/move/bertinetti.csv  file unlinked
+2019-3-1 11:58:08 -[READFROMCLINUX]- {cdi-uberlandia}Begin writeFileDBSSH...
+2019-3-1 11:58:08 -[READFROMCLINUX]- {cdi-uberlandia}Testing ssh... {"host":"cdiub.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-1 11:58:08 -[READFROMCLINUX]- {cdi-uberlandia}New Client OK cdi-uberlandia
+2019-3-1 11:58:09 -[READFROMCLINUX]- {cdi-uberlandia}STDOUT: COPY 15958
+
+2019-3-1 11:58:09 -[READFROMCLINUX]- {cdi-uberlandia}preparing remote file /usr/home/dicomvix/move/cdiuberlandia.csv moving to ./data/FriMar012019cdi-uberlandia.csv
+2019-3-1 11:58:15 -[READFROMCLINUX]- {cdi-uberlandia}Succesfully DownLoaded
+2019-3-1 11:58:15 -[READFROMCLINUX]- {cdi-uberlandia}/usr/home/dicomvix/move/cdiuberlandia.csv  file unlinked
+2019-3-1 11:58:20 -[READFROMCLINUX]- {cdisalvador}Begin writeFileDBSSH...
+2019-3-1 11:58:20 -[READFROMCLINUX]- {cdisalvador}Testing ssh... {"host":"cdisalvador.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-3-1 11:58:20 -[READFROMCLINUX]- {cdisalvador}New Client OK cdisalvador
+2019-3-1 11:58:22 -[READFROMCLINUX]- {cdisalvador}STDOUT: COPY 13583
+
+2019-3-1 11:58:22 -[READFROMCLINUX]- {cdisalvador}preparing remote file /usr/home/dicomvix/move/cdisalvador.csv moving to ./data/FriMar012019cdisalvador.csv
+2019-3-1 11:58:39 -[READFROMCLINUX]- {cdisalvador}Succesfully DownLoaded
+2019-3-1 11:58:39 -[READFROMCLINUX]- {cdisalvador}/usr/home/dicomvix/move/cdisalvador.csv  file unlinked
+2019-3-1 11:58:44 -[READFROMCLINUX]- {saosalvador}Begin writeFileDBSSH...
+2019-3-1 11:58:44 -[READFROMCLINUX]- {saosalvador}Testing ssh... {"host":"clinicasaosalvador.ddns.net","port":1157,"username":"dicomvix","password":"GTESSA@2018"}
+2019-3-1 11:58:44 -[READFROMCLINUX]- {saosalvador}New Client OK saosalvador
+2019-3-1 11:58:45 -[READFROMCLINUX]- {saosalvador}STDOUT: COPY 9867
+
+2019-3-1 11:58:45 -[READFROMCLINUX]- {saosalvador}preparing remote file /usr/home/dicomvix/move/saosalvador.csv moving to ./data/FriMar012019saosalvador.csv
+2019-3-1 11:58:48 -[READFROMCLINUX]- {saosalvador}Succesfully DownLoaded
+2019-3-1 11:58:48 -[READFROMCLINUX]- {saosalvador}/usr/home/dicomvix/move/saosalvador.csv  file unlinked
+2019-3-1 11:58:53 -[READFROMCLINUX]- {cepem}Begin writeFileDBSSH...
+2019-3-1 11:58:53 -[READFROMCLINUX]- {cepem}Testing ssh... {"host":"177.124.226.98","port":527,"username":"clinuxweb","password":"ClinuX99Fb"}
+2019-3-1 11:58:53 -[READFROMCLINUX]- {cepem}New Client OK cepem
+2019-3-1 11:59:02 -[READFROMCLINUX]- {cepem}STDOUT: COPY 51995
+
+2019-3-1 11:59:02 -[READFROMCLINUX]- {cepem}preparing remote file /home/clinuxweb/move/cepem.csv moving to ./data/FriMar012019cepem.csv
+2019-3-1 11:59:07 -[READFROMCLINUX]- {cepem}Succesfully DownLoaded
+2019-3-1 11:59:07 -[READFROMCLINUX]- {cepem}/home/clinuxweb/move/cepem.csv  file unlinked
+2019-3-1 11:59:12 -[READFROMCLINUX]- {saomarcelo}Begin writeFileDBSSH...
+2019-3-1 11:59:12 -[READFROMCLINUX]- {saomarcelo}Testing ssh... {"host":"saomarcelo.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-1 11:59:12 -[READFROMCLINUX]- {saomarcelo}New Client OK saomarcelo
+2019-3-1 11:59:13 -[READFROMCLINUX]- {saomarcelo}STDOUT: COPY 20265
+
+2019-3-1 11:59:13 -[READFROMCLINUX]- {saomarcelo}preparing remote file /usr/home/dicomvix/move/saomarcelo.csv moving to ./data/FriMar012019saomarcelo.csv
+2019-3-1 11:59:15 -[READFROMCLINUX]- {saomarcelo}Succesfully DownLoaded
+2019-3-1 11:59:15 -[READFROMCLINUX]- {saomarcelo}/usr/home/dicomvix/move/saomarcelo.csv  file unlinked
+2019-3-1 11:59:20 -[READFROMCLINUX]- {medicine}Begin writeFileDBSSH...
+2019-3-1 11:59:20 -[READFROMCLINUX]- {medicine}Testing ssh... {"host":"170.82.182.106","port":39802,"username":"dicomvix","password":"system98"}
+2019-3-1 11:59:20 -[READFROMCLINUX]- {medicine}New Client OK medicine
+2019-3-1 11:59:21 -[READFROMCLINUX]- {medicine}STDOUT: COPY 5316
+
+2019-3-1 11:59:21 -[READFROMCLINUX]- {medicine}preparing remote file /usr/home/dicomvix/move/medicine.csv moving to ./data/FriMar012019medicine.csv
+2019-3-1 11:59:26 -[READFROMCLINUX]- {medicine}Succesfully DownLoaded
+2019-3-1 11:59:26 -[READFROMCLINUX]- {medicine}/usr/home/dicomvix/move/medicine.csv  file unlinked
+2019-3-1 11:59:31 -[READFROMCLINUX]- {magnus}Begin writeFileDBSSH...
+2019-3-1 11:59:31 -[READFROMCLINUX]- {magnus}Testing ssh... {"host":"alfenas.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-3-1 11:59:31 -[READFROMCLINUX]- {magnus}New Client OK magnus
+2019-3-1 11:59:32 -[READFROMCLINUX]- {magnus}STDOUT: COPY 3606
+
+2019-3-1 11:59:32 -[READFROMCLINUX]- {magnus}preparing remote file /usr/home/dicomvix/move/magnus.csv moving to ./data/FriMar012019magnus.csv
+2019-3-1 11:59:34 -[READFROMCLINUX]- {magnus}Succesfully DownLoaded
+2019-3-1 11:59:34 -[READFROMCLINUX]- {magnus}/usr/home/dicomvix/move/magnus.csv  file unlinked
+2019-3-1 11:59:39 -[READFROMCLINUX]- {megaimagen}Begin writeFileDBSSH...
+2019-3-1 11:59:39 -[READFROMCLINUX]- {megaimagen}Testing ssh... {"host":"187.92.71.161","port":1157,"username":"clinuxweb","password":"ClinuX99Fb"}
+2019-3-1 11:59:39 -[READFROMCLINUX]- {megaimagen}New Client OK megaimagen
+2019-3-1 11:59:41 -[READFROMCLINUX]- {megaimagen}STDOUT: COPY 31897
+
+2019-3-1 11:59:41 -[READFROMCLINUX]- {megaimagen}preparing remote file /usr/home/clinuxweb/move/megaimagen.csv moving to ./data/FriMar012019megaimagen.csv
+2019-3-1 11:59:45 -[READFROMCLINUX]- {megaimagen}Succesfully DownLoaded
+2019-3-1 11:59:45 -[READFROMCLINUX]- {megaimagen}/usr/home/clinuxweb/move/megaimagen.csv  file unlinked
+2019-3-1 11:59:50 -[READFROMCLINUX]- {clirad}Begin writeFileDBSSH...
+2019-3-1 11:59:50 -[READFROMCLINUX]- {clirad}Testing ssh... {"host":"clirad.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-1 11:59:50 -[READFROMCLINUX]- {clirad}New Client OK clirad
+2019-3-1 11:59:51 -[READFROMCLINUX]- {clirad}STDOUT: COPY 3480
+
+2019-3-1 11:59:51 -[READFROMCLINUX]- {clirad}preparing remote file /usr/home/dicomvix/move/clirad.csv moving to ./data/FriMar012019clirad.csv
+2019-3-1 11:59:52 -[READFROMCLINUX]- {clirad}Succesfully DownLoaded
+2019-3-1 11:59:52 -[READFROMCLINUX]- {clirad}/usr/home/dicomvix/move/clirad.csv  file unlinked
+2019-3-1 11:59:57 -[READFROMCLINUX]- {rd-xavier}Begin writeFileDBSSH...
+2019-3-1 11:59:57 -[READFROMCLINUX]- {rd-xavier}Testing ssh... {"host":"177.185.141.71","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-1 11:59:57 -[READFROMCLINUX]- {rd-xavier}New Client OK rd-xavier
+2019-3-1 11:59:58 -[READFROMCLINUX]- {rd-xavier}STDOUT: COPY 8002
+
+2019-3-1 11:59:58 -[READFROMCLINUX]- {rd-xavier}preparing remote file /usr/home/dicomvix/move/rd-xavier.csv moving to ./data/FriMar012019rd-xavier.csv
+2019-3-1 12:00:01 -[READFROMCLINUX]- {rd-xavier}Succesfully DownLoaded
+2019-3-1 12:00:01 -[READFROMCLINUX]- {rd-xavier}/usr/home/dicomvix/move/rd-xavier.csv  file unlinked
+2019-3-1 12:00:06 -[READFROMCLINUX]- {rad-med}Begin writeFileDBSSH...
+2019-3-1 12:00:06 -[READFROMCLINUX]- {rad-med}Testing ssh... {"host":"radmed.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-1 12:00:06 -[READFROMCLINUX]- {rad-med}New Client OK rad-med
+2019-3-1 12:00:07 -[READFROMCLINUX]- {rad-med}STDOUT: COPY 11623
+
+2019-3-1 12:00:07 -[READFROMCLINUX]- {rad-med}preparing remote file /usr/home/dicomvix/move/rad-med.csv moving to ./data/FriMar012019rad-med.csv
+2019-3-1 12:00:24 -[READFROMCLINUX]- {rad-med}Succesfully DownLoaded
+2019-3-1 12:00:25 -[READFROMCLINUX]- {rad-med}/usr/home/dicomvix/move/rad-med.csv  file unlinked
+2019-3-1 12:00:30 -[READFROMCLINUX]- {susga}Begin writeFileDBSSH...
+2019-3-1 12:00:30 -[READFROMCLINUX]- {susga}Testing ssh... {"host":"177.99.226.20","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-1 12:00:30 -[READFROMCLINUX]- {susga}New Client OK susga
+2019-3-1 12:00:31 -[READFROMCLINUX]- {susga}STDOUT: COPY 15476
+
+2019-3-1 12:00:32 -[READFROMCLINUX]- {susga}preparing remote file /usr/home/dicomvix/move/susga.csv moving to ./data/FriMar012019susga.csv
+2019-3-1 12:01:14 -[READFROMCLINUX]- {susga}Succesfully DownLoaded
+2019-3-1 12:01:15 -[READFROMCLINUX]- {susga}/usr/home/dicomvix/move/susga.csv  file unlinked
+2019-3-1 12:01:20 -[READFROMCLINUX]- {tomoclinica}Begin writeFileDBSSH...
+2019-3-1 12:01:20 -[READFROMCLINUX]- {tomoclinica}Testing ssh... {"host":"webpacs.tomoclinica.com.br","port":2222,"username":"dicomvix","password":"system98"}
+2019-3-1 12:01:20 -[READFROMCLINUX]- {tomoclinica}New Client OK tomoclinica
+2019-3-1 12:01:21 -[READFROMCLINUX]- {tomoclinica}STDOUT: COPY 7118
+
+2019-3-1 12:01:21 -[READFROMCLINUX]- {tomoclinica}preparing remote file /usr/home/dicomvix/move/tomoclinica.csv moving to ./data/FriMar012019tomoclinica.csv
+2019-3-1 12:01:22 -[READFROMCLINUX]- {tomoclinica}Succesfully DownLoaded
+2019-3-1 12:01:22 -[READFROMCLINUX]- {tomoclinica}/usr/home/dicomvix/move/tomoclinica.csv  file unlinked
+2019-3-1 12:32:04 -[READFROMCLINUX]- {cdisalvador}Begin writeFileDBSSH...
+2019-3-1 12:32:04 -[READFROMCLINUX]- {cdisalvador}Testing ssh... {"host":"cdisalvador.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-3-1 12:32:04 -[READFROMCLINUX]- {cdisalvador}New Client OK cdisalvador
+2019-3-1 12:32:05 -[READFROMCLINUX]- {cdisalvador}STDOUT: COPY 13583
+
+2019-3-1 12:32:06 -[READFROMCLINUX]- {cdisalvador}preparing remote file /usr/home/dicomvix/move/cdisalvador.csv moving to ./data/FriMar012019cdisalvador.csv
+2019-3-1 12:32:16 -[READFROMCLINUX]- {cdisalvador}Succesfully DownLoaded
+2019-3-1 12:32:16 -[READFROMCLINUX]- {cdisalvador}/usr/home/dicomvix/move/cdisalvador.csv  file unlinked
+2019-3-1 12:32:21 -[WRITETONEST]- Starting to read FriMar012019cdisalvador.csv
+2019-3-1 12:32:21 -[WRITETONEST]- Starting executeAllTasks ./data/FriMar012019cdisalvador.csv
+2019-3-1 12:32:22 -[WRITETONEST]- Truncated temp_indger
+2019-3-1 12:32:22 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-1 12:32:28 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-1 12:32:28 -[WRITETONEST]- Successfully  ./history/FriMar012019cdisalvador.csv  moved
+2019-3-1 12:32:33 -[READFROMCLINUX]- {saosalvador}Begin writeFileDBSSH...
+2019-3-1 12:32:33 -[READFROMCLINUX]- {saosalvador}Testing ssh... {"host":"clinicasaosalvador.ddns.net","port":1157,"username":"dicomvix","password":"GTESSA@2018"}
+2019-3-1 12:32:33 -[READFROMCLINUX]- {saosalvador}New Client OK saosalvador
+2019-3-1 12:32:34 -[READFROMCLINUX]- {saosalvador}STDOUT: COPY 9867
+
+2019-3-1 12:32:34 -[READFROMCLINUX]- {saosalvador}preparing remote file /usr/home/dicomvix/move/saosalvador.csv moving to ./data/FriMar012019saosalvador.csv
+2019-3-1 12:32:37 -[READFROMCLINUX]- {saosalvador}Succesfully DownLoaded
+2019-3-1 12:32:37 -[READFROMCLINUX]- {saosalvador}/usr/home/dicomvix/move/saosalvador.csv  file unlinked
+2019-3-1 12:32:42 -[WRITETONEST]- Starting to read FriMar012019saosalvador.csv
+2019-3-1 12:32:42 -[WRITETONEST]- Starting executeAllTasks ./data/FriMar012019saosalvador.csv
+2019-3-1 12:32:43 -[WRITETONEST]- Truncated temp_indger
+2019-3-1 12:32:43 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-1 12:32:48 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-1 12:32:48 -[WRITETONEST]- Successfully  ./history/FriMar012019saosalvador.csv  moved
+2019-3-1 12:33:50 -[READFROMCLINUX]- {cdisalvador}Begin writeFileDBSSH...
+2019-3-1 12:33:50 -[READFROMCLINUX]- {cdisalvador}Testing ssh... {"host":"cdisalvador.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-3-1 12:33:50 -[READFROMCLINUX]- {cdisalvador}New Client OK cdisalvador
+2019-3-1 12:33:51 -[READFROMCLINUX]- {cdisalvador}STDOUT: COPY 13583
+
+2019-3-1 12:33:52 -[READFROMCLINUX]- {cdisalvador}preparing remote file /usr/home/dicomvix/move/cdisalvador.csv moving to ./data/FriMar012019cdisalvador.csv
+2019-3-1 12:34:02 -[READFROMCLINUX]- {cdisalvador}Succesfully DownLoaded
+2019-3-1 12:34:02 -[READFROMCLINUX]- {cdisalvador}/usr/home/dicomvix/move/cdisalvador.csv  file unlinked
+2019-3-1 12:34:07 -[WRITETONEST]- Starting to read FriMar012019cdisalvador.csv
+2019-3-1 12:34:07 -[WRITETONEST]- Starting executeAllTasks ./data/FriMar012019cdisalvador.csv
+2019-3-1 12:34:08 -[WRITETONEST]- Truncated temp_indger
+2019-3-1 12:34:08 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-1 12:34:14 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-1 12:34:14 -[WRITETONEST]- Successfully  ./history/FriMar012019cdisalvador.csv  moved
+2019-3-1 12:34:19 -[READFROMCLINUX]- {saosalvador}Begin writeFileDBSSH...
+2019-3-1 12:34:19 -[READFROMCLINUX]- {saosalvador}Testing ssh... {"host":"clinicasaosalvador.ddns.net","port":1157,"username":"dicomvix","password":"GTESSA@2018"}
+2019-3-1 12:34:19 -[READFROMCLINUX]- {saosalvador}New Client OK saosalvador
+2019-3-1 12:34:20 -[READFROMCLINUX]- {saosalvador}STDOUT: COPY 9867
+
+2019-3-1 12:34:20 -[READFROMCLINUX]- {saosalvador}preparing remote file /usr/home/dicomvix/move/saosalvador.csv moving to ./data/FriMar012019saosalvador.csv
+2019-3-1 12:34:24 -[READFROMCLINUX]- {saosalvador}Succesfully DownLoaded
+2019-3-1 12:34:24 -[READFROMCLINUX]- {saosalvador}/usr/home/dicomvix/move/saosalvador.csv  file unlinked
+2019-3-1 12:34:29 -[WRITETONEST]- Starting to read FriMar012019saosalvador.csv
+2019-3-1 12:34:29 -[WRITETONEST]- Starting executeAllTasks ./data/FriMar012019saosalvador.csv
+2019-3-1 12:34:30 -[WRITETONEST]- Truncated temp_indger
+2019-3-1 12:34:30 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-1 12:34:35 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-1 12:34:35 -[WRITETONEST]- Successfully  ./history/FriMar012019saosalvador.csv  moved
+2019-3-1 16:00:33 -[READFROMCLINUX]- {magnus}Begin writeFileDBSSH...
+2019-3-1 16:00:33 -[READFROMCLINUX]- {magnus}Testing ssh... {"host":"alfenas.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-3-1 16:00:33 -[READFROMCLINUX]- {magnus}New Client OK magnus
+2019-3-1 16:00:33 -[READFROMCLINUX]- {magnus}STDERR: ERROR:  syntax error at end of input
+LINE 86: ...ome/dicomvix/move/magnus.csv'  with CSV DELIMITER ';' HEADER
+                                                                        ^
+
+2019-3-1 16:02:05 -[READFROMCLINUX]- {magnus}Begin writeFileDBSSH...
+2019-3-1 16:02:05 -[READFROMCLINUX]- {magnus}Testing ssh... {"host":"alfenas.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-3-1 16:02:05 -[READFROMCLINUX]- {magnus}New Client OK magnus
+2019-3-1 16:02:08 -[READFROMCLINUX]- {magnus}STDOUT: COPY 42387
+
+2019-3-1 16:02:08 -[READFROMCLINUX]- {magnus}preparing remote file /usr/home/dicomvix/move/magnus.csv moving to ./data/FriMar012019magnus.csv
+2019-3-1 16:06:06 -[READFROMCLINUX]- {magnus}Begin writeFileDBSSH...
+2019-3-1 16:06:06 -[READFROMCLINUX]- {magnus}Testing ssh... {"host":"alfenas.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-3-1 16:06:06 -[READFROMCLINUX]- {magnus}New Client OK magnus
+2019-3-1 16:06:09 -[READFROMCLINUX]- {magnus}STDOUT: COPY 42387
+
+2019-3-1 16:06:10 -[READFROMCLINUX]- {magnus}preparing remote file /usr/home/dicomvix/move/magnus.csv moving to ./data/FriMar012019magnus.csv
+2019-3-1 16:06:23 -[READFROMCLINUX]- {magnus}Succesfully DownLoaded
+2019-3-1 16:06:23 -[READFROMCLINUX]- {magnus}/usr/home/dicomvix/move/magnus.csv  file unlinked
+2019-3-1 16:06:54 -[WRITETONEST]- Starting to read FriMar012019magnus.csv
+2019-3-1 16:06:54 -[WRITETONEST]- Starting executeAllTasks ./data/FriMar012019magnus.csv
+2019-3-1 16:06:55 -[WRITETONEST]- Truncated temp_indger
+2019-3-1 16:07:00 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-1 16:07:28 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-1 16:07:29 -[WRITETONEST]- Successfully  ./history/FriMar012019magnus.csv  moved
+2019-3-6 20:02:32 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-6 20:02:32 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-6 20:02:32 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-6 20:02:35 -[READFROMCLINUX]- {delfos}STDOUT: COPY 32845
+
+2019-3-6 20:02:35 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/WedMar062019delfos.csv
+2019-3-6 20:02:49 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-6 20:02:49 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-6 20:02:54 -[WRITETONEST]- Starting to read WedMar062019delfos.csv
+2019-3-6 20:02:54 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019delfos.csv
+2019-3-6 20:02:55 -[WRITETONEST]- Truncated temp_indger
+2019-3-6 20:02:57 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-6 20:03:17 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-6 20:03:17 -[WRITETONEST]- Successfully  ./history/WedMar062019delfos.csv  moved
+2019-3-6 20:03:22 -[READFROMCLINUX]- {bertinetti}Begin writeFileDBSSH...
+2019-3-6 20:03:22 -[READFROMCLINUX]- {bertinetti}Testing ssh... {"host":"191.33.180.195","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-6 20:03:22 -[READFROMCLINUX]- {bertinetti}New Client OK bertinetti
+2019-3-6 20:03:27 -[READFROMCLINUX]- {bertinetti}STDOUT: COPY 138629
+
+2019-3-6 20:03:27 -[READFROMCLINUX]- {bertinetti}preparing remote file /usr/home/dicomvix/move/bertinetti.csv moving to ./data/WedMar062019bertinetti.csv
+2019-3-6 20:06:58 -[READFROMCLINUX]- {bertinetti}Succesfully DownLoaded
+2019-3-6 20:06:59 -[READFROMCLINUX]- {bertinetti}/usr/home/dicomvix/move/bertinetti.csv  file unlinked
+2019-3-6 20:07:04 -[WRITETONEST]- Starting to read WedMar062019bertinetti.csv
+2019-3-6 20:07:04 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019bertinetti.csv
+2019-3-6 20:07:05 -[WRITETONEST]- Truncated temp_indger
+2019-3-6 20:07:24 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-6 20:09:11 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-6 20:09:11 -[WRITETONEST]- Successfully  ./history/WedMar062019bertinetti.csv  moved
+2019-3-6 20:09:16 -[READFROMCLINUX]- {cdi-uberlandia}Begin writeFileDBSSH...
+2019-3-6 20:09:16 -[READFROMCLINUX]- {cdi-uberlandia}Testing ssh... {"host":"cdiub.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-6 20:09:16 -[READFROMCLINUX]- {cdi-uberlandia}New Client OK cdi-uberlandia
+2019-3-6 20:09:19 -[READFROMCLINUX]- {cdi-uberlandia}STDOUT: COPY 99315
+
+2019-3-6 20:09:19 -[READFROMCLINUX]- {cdi-uberlandia}preparing remote file /usr/home/dicomvix/move/cdiuberlandia.csv moving to ./data/WedMar062019cdi-uberlandia.csv
+2019-3-6 20:09:55 -[READFROMCLINUX]- {cdi-uberlandia}Succesfully DownLoaded
+2019-3-6 20:09:55 -[READFROMCLINUX]- {cdi-uberlandia}/usr/home/dicomvix/move/cdiuberlandia.csv  file unlinked
+2019-3-6 20:10:00 -[WRITETONEST]- Starting to read WedMar062019cdi-uberlandia.csv
+2019-3-6 20:10:00 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019cdi-uberlandia.csv
+2019-3-6 20:10:01 -[WRITETONEST]- Truncated temp_indger
+2019-3-6 20:10:11 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-6 20:11:12 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-6 20:11:12 -[WRITETONEST]- Successfully  ./history/WedMar062019cdi-uberlandia.csv  moved
+2019-3-6 20:11:17 -[READFROMCLINUX]- {cdisalvador}Begin writeFileDBSSH...
+2019-3-6 20:11:17 -[READFROMCLINUX]- {cdisalvador}Testing ssh... {"host":"cdisalvador.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-3-6 20:11:17 -[READFROMCLINUX]- {cdisalvador}New Client OK cdisalvador
+2019-3-6 20:11:41 -[READFROMCLINUX]- {cdisalvador}STDOUT: COPY 413609
+
+2019-3-6 20:11:41 -[READFROMCLINUX]- {cdisalvador}preparing remote file /usr/home/dicomvix/move/cdisalvador.csv moving to ./data/WedMar062019cdisalvador.csv
+2019-3-6 20:16:48 -[READFROMCLINUX]- {cdisalvador}Succesfully DownLoaded
+2019-3-6 20:16:48 -[READFROMCLINUX]- {cdisalvador}/usr/home/dicomvix/move/cdisalvador.csv  file unlinked
+2019-3-6 20:16:53 -[WRITETONEST]- Starting to read WedMar062019cdisalvador.csv
+2019-3-6 20:16:53 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019cdisalvador.csv
+2019-3-6 20:16:54 -[WRITETONEST]- Truncated temp_indger
+2019-3-6 20:17:50 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-6 20:24:52 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-6 20:24:53 -[WRITETONEST]- Successfully  ./history/WedMar062019cdisalvador.csv  moved
+2019-3-6 20:24:58 -[READFROMCLINUX]- {saosalvador}Begin writeFileDBSSH...
+2019-3-6 20:24:58 -[READFROMCLINUX]- {saosalvador}Testing ssh... {"host":"clinicasaosalvador.ddns.net","port":1157,"username":"dicomvix","password":"GTESSA@2018"}
+2019-3-6 20:24:58 -[READFROMCLINUX]- {saosalvador}New Client OK saosalvador
+2019-3-6 20:24:59 -[READFROMCLINUX]- {saosalvador}STDOUT: COPY 19575
+
+2019-3-6 20:24:59 -[READFROMCLINUX]- {saosalvador}preparing remote file /usr/home/dicomvix/move/saosalvador.csv moving to ./data/WedMar062019saosalvador.csv
+2019-3-6 20:25:06 -[READFROMCLINUX]- {saosalvador}Succesfully DownLoaded
+2019-3-6 20:25:06 -[READFROMCLINUX]- {saosalvador}/usr/home/dicomvix/move/saosalvador.csv  file unlinked
+2019-3-6 20:25:10 -[WRITETONEST]- Starting to read WedMar062019saosalvador.csv
+2019-3-6 20:25:10 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019saosalvador.csv
+2019-3-6 20:25:11 -[WRITETONEST]- Truncated temp_indger
+2019-3-6 20:25:12 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-6 20:25:26 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-6 20:25:26 -[WRITETONEST]- Successfully  ./history/WedMar062019saosalvador.csv  moved
+2019-3-6 20:25:31 -[READFROMCLINUX]- {cepem}Begin writeFileDBSSH...
+2019-3-6 20:25:31 -[READFROMCLINUX]- {cepem}Testing ssh... {"host":"177.124.226.98","port":527,"username":"clinuxweb","password":"ClinuX99Fb"}
+2019-3-6 20:25:31 -[READFROMCLINUX]- {cepem}New Client OK cepem
+2019-3-6 20:27:58 -[READFROMCLINUX]- {cepem}STDOUT: COPY 1373126
+
+2019-3-6 20:27:58 -[READFROMCLINUX]- {cepem}preparing remote file /home/clinuxweb/move/cepem.csv moving to ./data/WedMar062019cepem.csv
+2019-3-6 20:30:29 -[READFROMCLINUX]- {cepem}Succesfully DownLoaded
+2019-3-6 20:30:29 -[READFROMCLINUX]- {cepem}/home/clinuxweb/move/cepem.csv  file unlinked
+2019-3-6 20:30:34 -[WRITETONEST]- Starting to read WedMar062019cepem.csv
+2019-3-6 20:30:34 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019cepem.csv
+2019-3-6 20:30:35 -[WRITETONEST]- Truncated temp_indger
+2019-3-6 20:33:20 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-6 20:35:53 -[READFROMCLINUX]- {saomarcelo}Begin writeFileDBSSH...
+2019-3-6 20:35:53 -[READFROMCLINUX]- {saomarcelo}Testing ssh... {"host":"saomarcelo.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-6 20:35:53 -[READFROMCLINUX]- {saomarcelo}New Client OK saomarcelo
+2019-3-6 20:35:55 -[READFROMCLINUX]- {saomarcelo}STDOUT: COPY 57226
+
+2019-3-6 20:35:55 -[READFROMCLINUX]- {saomarcelo}preparing remote file /usr/home/dicomvix/move/saomarcelo.csv moving to ./data/WedMar062019saomarcelo.csv
+2019-3-6 20:36:00 -[READFROMCLINUX]- {saomarcelo}Succesfully DownLoaded
+2019-3-6 20:36:00 -[READFROMCLINUX]- {saomarcelo}/usr/home/dicomvix/move/saomarcelo.csv  file unlinked
+2019-3-6 20:36:05 -[WRITETONEST]- Starting to read WedMar062019cepem.csv
+2019-3-6 20:36:05 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019cepem.csv
+2019-3-6 20:36:06 -[WRITETONEST]- Truncated temp_indger
+2019-3-6 20:39:56 -[READFROMCLINUX]- {medicine}Begin writeFileDBSSH...
+2019-3-6 20:39:56 -[READFROMCLINUX]- {medicine}Testing ssh... {"host":"170.82.182.106","port":39802,"username":"dicomvix","password":"system98"}
+2019-3-6 20:39:56 -[READFROMCLINUX]- {medicine}New Client OK medicine
+2019-3-6 20:39:58 -[READFROMCLINUX]- {medicine}STDOUT: COPY 38559
+
+2019-3-6 20:39:58 -[READFROMCLINUX]- {medicine}preparing remote file /usr/home/dicomvix/move/medicine.csv moving to ./data/WedMar062019medicine.csv
+2019-3-6 20:40:12 -[READFROMCLINUX]- {medicine}Succesfully DownLoaded
+2019-3-6 20:40:12 -[READFROMCLINUX]- {medicine}/usr/home/dicomvix/move/medicine.csv  file unlinked
+2019-3-6 20:40:17 -[WRITETONEST]- Starting to read WedMar062019cepem.csv
+2019-3-6 20:40:17 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019cepem.csv
+2019-3-6 20:40:23 -[READFROMCLINUX]- {magnus}Begin writeFileDBSSH...
+2019-3-6 20:40:23 -[READFROMCLINUX]- {magnus}Testing ssh... {"host":"alfenas.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-3-6 20:40:23 -[READFROMCLINUX]- {magnus}New Client OK magnus
+2019-3-6 20:40:27 -[READFROMCLINUX]- {magnus}STDOUT: COPY 42478
+
+2019-3-6 20:40:27 -[READFROMCLINUX]- {magnus}preparing remote file /usr/home/dicomvix/move/magnus.csv moving to ./data/WedMar062019magnus.csv
+2019-3-6 20:40:53 -[READFROMCLINUX]- {magnus}Succesfully DownLoaded
+2019-3-6 20:40:53 -[READFROMCLINUX]- {magnus}/usr/home/dicomvix/move/magnus.csv  file unlinked
+2019-3-6 20:40:58 -[WRITETONEST]- Starting to read WedMar062019magnus.csv
+2019-3-6 20:40:58 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019magnus.csv
+2019-3-6 20:41:04 -[READFROMCLINUX]- {megaimagen}Begin writeFileDBSSH...
+2019-3-6 20:41:04 -[READFROMCLINUX]- {megaimagen}Testing ssh... {"host":"187.92.71.161","port":1157,"username":"clinuxweb","password":"ClinuX99Fb"}
+2019-3-6 20:41:04 -[READFROMCLINUX]- {megaimagen}New Client OK megaimagen
+2019-3-6 20:42:39 -[READFROMCLINUX]- {megaimagen}STDOUT: COPY 942963
+
+2019-3-6 20:42:40 -[READFROMCLINUX]- {megaimagen}preparing remote file /usr/home/clinuxweb/move/megaimagen.csv moving to ./data/WedMar062019megaimagen.csv
+2019-3-6 20:44:17 -[READFROMCLINUX]- {megaimagen}Succesfully DownLoaded
+2019-3-6 20:44:17 -[READFROMCLINUX]- {megaimagen}/usr/home/clinuxweb/move/megaimagen.csv  file unlinked
+2019-3-6 20:44:22 -[WRITETONEST]- Starting to read WedMar062019magnus.csv
+2019-3-6 20:44:22 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019magnus.csv
+2019-3-6 20:44:28 -[READFROMCLINUX]- {clirad}Begin writeFileDBSSH...
+2019-3-6 20:44:28 -[READFROMCLINUX]- {clirad}Testing ssh... {"host":"clirad.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-6 20:44:28 -[READFROMCLINUX]- {clirad}New Client OK clirad
+2019-3-6 20:44:29 -[READFROMCLINUX]- {clirad}STDOUT: COPY 50720
+
+2019-3-6 20:44:30 -[READFROMCLINUX]- {clirad}preparing remote file /usr/home/dicomvix/move/clirad.csv moving to ./data/WedMar062019clirad.csv
+2019-3-6 20:44:41 -[READFROMCLINUX]- {clirad}Succesfully DownLoaded
+2019-3-6 20:44:41 -[READFROMCLINUX]- {clirad}/usr/home/dicomvix/move/clirad.csv  file unlinked
+2019-3-6 20:44:46 -[WRITETONEST]- Starting to read WedMar062019clirad.csv
+2019-3-6 20:44:46 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019clirad.csv
+2019-3-6 20:44:52 -[READFROMCLINUX]- {rd-xavier}Begin writeFileDBSSH...
+2019-3-6 20:44:52 -[READFROMCLINUX]- {rd-xavier}Testing ssh... {"host":"177.185.141.71","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-6 20:44:52 -[READFROMCLINUX]- {rd-xavier}New Client OK rd-xavier
+2019-3-6 20:44:56 -[READFROMCLINUX]- {rd-xavier}STDOUT: COPY 96357
+
+2019-3-6 20:44:56 -[READFROMCLINUX]- {rd-xavier}preparing remote file /usr/home/dicomvix/move/rd-xavier.csv moving to ./data/WedMar062019rd-xavier.csv
+2019-3-6 20:45:10 -[READFROMCLINUX]- {rd-xavier}Succesfully DownLoaded
+2019-3-6 20:45:10 -[READFROMCLINUX]- {rd-xavier}/usr/home/dicomvix/move/rd-xavier.csv  file unlinked
+2019-3-6 20:45:15 -[WRITETONEST]- Starting to read WedMar062019clirad.csv
+2019-3-6 20:45:15 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019clirad.csv
+2019-3-6 20:45:21 -[READFROMCLINUX]- {rad-med}Begin writeFileDBSSH...
+2019-3-6 20:45:21 -[READFROMCLINUX]- {rad-med}Testing ssh... {"host":"radmed.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-6 20:45:21 -[READFROMCLINUX]- {rad-med}New Client OK rad-med
+2019-3-6 20:45:28 -[READFROMCLINUX]- {rad-med}STDOUT: COPY 62172
+
+2019-3-6 20:45:28 -[READFROMCLINUX]- {rad-med}preparing remote file /usr/home/dicomvix/move/rad-med.csv moving to ./data/WedMar062019rad-med.csv
+2019-3-6 20:46:57 -[READFROMCLINUX]- {rad-med}Succesfully DownLoaded
+2019-3-6 20:46:57 -[READFROMCLINUX]- {rad-med}/usr/home/dicomvix/move/rad-med.csv  file unlinked
+2019-3-6 20:47:02 -[WRITETONEST]- Starting to read WedMar062019clirad.csv
+2019-3-6 20:47:02 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019clirad.csv
+2019-3-6 20:47:08 -[READFROMCLINUX]- {susga}Begin writeFileDBSSH...
+2019-3-6 20:47:08 -[READFROMCLINUX]- {susga}Testing ssh... {"host":"177.99.226.20","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-6 20:47:08 -[READFROMCLINUX]- {susga}New Client OK susga
+2019-3-6 20:47:23 -[READFROMCLINUX]- {susga}STDOUT: COPY 337783
+
+2019-3-6 20:47:23 -[READFROMCLINUX]- {susga}preparing remote file /usr/home/dicomvix/move/susga.csv moving to ./data/WedMar062019susga.csv
+2019-3-6 21:22:45 -[READFROMCLINUX]- {susga}Begin writeFileDBSSH...
+2019-3-6 21:22:45 -[READFROMCLINUX]- {susga}Testing ssh... {"host":"177.99.226.20","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-6 21:22:45 -[READFROMCLINUX]- {susga}New Client OK susga
+2019-3-6 21:22:59 -[READFROMCLINUX]- {susga}STDOUT: COPY 337783
+
+2019-3-6 21:23:00 -[READFROMCLINUX]- {susga}preparing remote file /usr/home/dicomvix/move/susga.csv moving to ./data/WedMar062019susga.csv
+2019-3-6 21:24:22 -[READFROMCLINUX]- {tomoclinica}Begin writeFileDBSSH...
+2019-3-6 21:24:22 -[READFROMCLINUX]- {tomoclinica}Testing ssh... {"host":"webpacs.tomoclinica.com.br","port":2222,"username":"dicomvix","password":"system98"}
+2019-3-6 21:24:22 -[READFROMCLINUX]- {tomoclinica}New Client OK tomoclinica
+2019-3-6 21:24:34 -[READFROMCLINUX]- {tomoclinica}STDOUT: COPY 59711
+
+2019-3-6 21:24:35 -[READFROMCLINUX]- {tomoclinica}preparing remote file /usr/home/dicomvix/move/tomoclinica.csv moving to ./data/WedMar062019tomoclinica.csv
+2019-3-6 21:24:40 -[READFROMCLINUX]- {tomoclinica}Succesfully DownLoaded
+2019-3-6 21:24:40 -[READFROMCLINUX]- {tomoclinica}/usr/home/dicomvix/move/tomoclinica.csv  file unlinked
+2019-3-6 21:28:58 -[READFROMCLINUX]- {susga}Succesfully DownLoaded
+2019-3-6 21:28:58 -[READFROMCLINUX]- {susga}/usr/home/dicomvix/move/susga.csv  file unlinked
+2019-3-7 11:31:50 -[WRITETONEST]- Starting to read WedMar062019cepem.csv
+2019-3-7 11:31:50 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019cepem.csv
+2019-3-7 11:31:51 -[WRITETONEST]- Truncated temp_indger
+2019-3-7 11:34:36 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-7 12:00:40 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-7 12:00:40 -[WRITETONEST]- Successfully  ./history/WedMar062019cepem.csv  moved
+2019-3-7 12:06:15 -[WRITETONEST]- Starting to read WedMar062019clirad.csv
+2019-3-7 12:06:15 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019clirad.csv
+2019-3-7 12:06:16 -[WRITETONEST]- Truncated temp_indger
+2019-3-7 12:06:21 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-7 12:07:27 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-7 12:07:27 -[WRITETONEST]- Successfully  ./history/WedMar062019clirad.csv  moved
+2019-3-7 12:07:40 -[WRITETONEST]- Starting to read WedMar062019magnus.csv
+2019-3-7 12:07:40 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019magnus.csv
+2019-3-7 12:07:41 -[WRITETONEST]- Truncated temp_indger
+2019-3-7 12:07:44 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-7 12:08:25 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-7 12:08:25 -[WRITETONEST]- Successfully  ./history/WedMar062019magnus.csv  moved
+2019-3-7 12:09:20 -[WRITETONEST]- Starting to read WedMar062019medicine.csv
+2019-3-7 12:09:20 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019medicine.csv
+2019-3-7 12:09:21 -[WRITETONEST]- Truncated temp_indger
+2019-3-7 12:09:23 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-7 12:10:04 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-7 12:10:04 -[WRITETONEST]- Successfully  ./history/WedMar062019medicine.csv  moved
+2019-3-7 12:10:13 -[WRITETONEST]- Starting to read WedMar062019megaimagen.csv
+2019-3-7 12:10:13 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019megaimagen.csv
+2019-3-7 12:10:14 -[WRITETONEST]- Truncated temp_indger
+2019-3-7 12:12:32 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-7 12:32:46 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-7 12:32:46 -[WRITETONEST]- Successfully  ./history/WedMar062019megaimagen.csv  moved
+2019-3-7 12:33:05 -[WRITETONEST]- Starting to read WedMar062019rad-med.csv
+2019-3-7 12:33:05 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019rad-med.csv
+2019-3-7 12:33:06 -[WRITETONEST]- Truncated temp_indger
+2019-3-7 12:33:12 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-7 12:34:09 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-7 12:34:09 -[WRITETONEST]- Successfully  ./history/WedMar062019rad-med.csv  moved
+2019-3-7 12:34:12 -[WRITETONEST]- Starting to read WedMar062019rd-xavier.csv
+2019-3-7 12:34:12 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019rd-xavier.csv
+2019-3-7 12:34:13 -[WRITETONEST]- Truncated temp_indger
+2019-3-7 12:34:24 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-7 12:36:04 -[WRITETONEST]- Starting to read WedMar062019rd-xavier.csv
+2019-3-7 12:36:04 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019rd-xavier.csv
+2019-3-7 12:36:05 -[WRITETONEST]- Truncated temp_indger
+2019-3-7 12:36:16 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-7 12:37:14 -[WRITETONEST]- Starting to read WedMar062019saomarcelo.csv
+2019-3-7 12:37:14 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019saomarcelo.csv
+2019-3-7 12:37:16 -[WRITETONEST]- Truncated temp_indger
+2019-3-7 12:37:23 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-7 12:38:03 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-7 12:38:03 -[WRITETONEST]- Successfully  ./history/WedMar062019saomarcelo.csv  moved
+2019-3-7 12:38:20 -[WRITETONEST]- Starting to read WedMar062019susga.csv
+2019-3-7 12:38:20 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019susga.csv
+2019-3-7 12:38:21 -[WRITETONEST]- Truncated temp_indger
+2019-3-7 12:38:59 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-7 12:44:33 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-7 12:44:33 -[WRITETONEST]- Successfully  ./history/WedMar062019susga.csv  moved
+2019-3-7 12:44:52 -[WRITETONEST]- Starting to read WedMar062019tomoclinica.csv
+2019-3-7 12:44:52 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019tomoclinica.csv
+2019-3-7 12:44:53 -[WRITETONEST]- Truncated temp_indger
+2019-3-7 12:44:58 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-7 12:46:06 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-7 12:46:06 -[WRITETONEST]- Successfully  ./history/WedMar062019tomoclinica.csv  moved
+2019-3-7 12:46:58 -[WRITETONEST]- Starting to read WedMar062019rd-xavier.csv
+2019-3-7 12:46:58 -[WRITETONEST]- Starting executeAllTasks ./data/WedMar062019rd-xavier.csv
+2019-3-7 12:46:59 -[WRITETONEST]- Truncated temp_indger
+2019-3-7 12:47:10 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-8 09:59:34 -[READFROMCLINUX]- {magnus}Begin writeFileDBSSH...
+2019-3-8 09:59:34 -[READFROMCLINUX]- {magnus}Testing ssh... {"host":"alfenas.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-3-8 09:59:34 -[READFROMCLINUX]- {magnus}New Client OK magnus
+2019-3-8 09:59:39 -[READFROMCLINUX]- {magnus}STDOUT: COPY 3606
+
+2019-3-8 09:59:39 -[READFROMCLINUX]- {magnus}preparing remote file /usr/home/dicomvix/move/magnus.csv moving to ./data/FriMar082019magnus.csv
+2019-3-8 09:59:40 -[READFROMCLINUX]- {magnus}Succesfully DownLoaded
+2019-3-8 09:59:40 -[READFROMCLINUX]- {magnus}/usr/home/dicomvix/move/magnus.csv  file unlinked
+2019-3-8 10:00:08 -[WRITETONEST]- Starting to read FriMar082019magnus.csv
+2019-3-8 10:00:08 -[WRITETONEST]- Starting executeAllTasks ./data/FriMar082019magnus.csv
+2019-3-8 10:00:09 -[WRITETONEST]- Truncated temp_indger
+2019-3-8 10:00:10 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-8 10:00:13 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-8 10:00:13 -[WRITETONEST]- Successfully  ./history/FriMar082019magnus.csv  moved
+2019-3-11 11:12:22 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-11 11:12:22 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-11 11:12:22 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-11 11:12:23 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8252
+
+2019-3-11 11:12:23 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/MonMar112019delfos.csv
+2019-3-11 11:12:26 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-11 11:12:27 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-11 11:12:57 -[WRITETONEST]- Starting to read MonMar112019delfos.csv
+2019-3-11 11:12:57 -[WRITETONEST]- Starting executeAllTasks ./data/MonMar112019delfos.csv
+2019-3-11 11:12:58 -[WRITETONEST]- Truncated temp_indger
+2019-3-11 11:12:58 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-11 11:13:03 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-11 11:13:03 -[WRITETONEST]- Successfully  ./history/MonMar112019delfos.csv  moved
+2019-3-11 11:25:05 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-11 11:25:05 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-11 11:25:05 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-11 11:25:06 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8252
+
+2019-3-11 11:25:06 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/MonMar112019delfos.csv
+2019-3-11 11:25:09 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-11 11:25:09 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-11 11:25:12 -[WRITETONEST]- Starting to read MonMar112019delfos.csv
+2019-3-11 11:25:12 -[WRITETONEST]- Starting executeAllTasks ./data/MonMar112019delfos.csv
+2019-3-11 11:25:13 -[WRITETONEST]- Truncated temp_indger
+2019-3-11 11:25:13 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-11 11:25:18 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-11 11:25:18 -[WRITETONEST]- Successfully  ./history/MonMar112019delfos.csv  moved
+2019-3-11 11:41:02 -[READFROMCLINUX]- {delfos}Begin writeFileDBSSH...
+2019-3-11 11:41:02 -[READFROMCLINUX]- {delfos}Testing ssh... {"host":"clinicadelfos.zapto.org","port":1157,"username":"dicomvix","password":"SysteM98"}
+2019-3-11 11:41:02 -[READFROMCLINUX]- {delfos}New Client OK delfos
+2019-3-11 11:41:04 -[READFROMCLINUX]- {delfos}STDOUT: COPY 8252
+
+2019-3-11 11:41:04 -[READFROMCLINUX]- {delfos}preparing remote file /usr/home/dicomvix/move/delfos.csv moving to ./data/MonMar112019delfos.csv
+2019-3-11 11:41:06 -[READFROMCLINUX]- {delfos}Succesfully DownLoaded
+2019-3-11 11:41:06 -[READFROMCLINUX]- {delfos}/usr/home/dicomvix/move/delfos.csv  file unlinked
+2019-3-11 11:43:06 -[WRITETONEST]- Starting to read MonMar112019delfos.csv
+2019-3-11 11:43:06 -[WRITETONEST]- Starting executeAllTasks ./data/MonMar112019delfos.csv
+2019-3-11 11:43:07 -[WRITETONEST]- Truncated temp_indger
+2019-3-11 11:43:07 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-11 11:43:12 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-11 11:43:12 -[WRITETONEST]- Successfully  ./history/MonMar112019delfos.csv  moved
+2019-3-11 11:50:06 -[READFROMCLINUX]- {clirad}Begin writeFileDBSSH...
+2019-3-11 11:50:06 -[READFROMCLINUX]- {clirad}Testing ssh... {"host":"clirad.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-11 11:50:06 -[READFROMCLINUX]- {clirad}New Client OK clirad
+2019-3-11 11:50:07 -[READFROMCLINUX]- {clirad}STDOUT: COPY 3483
+
+2019-3-11 11:50:07 -[READFROMCLINUX]- {clirad}preparing remote file /usr/home/dicomvix/move/clirad.csv moving to ./data/MonMar112019clirad.csv
+2019-3-11 11:50:07 -[READFROMCLINUX]- {clirad}Succesfully DownLoaded
+2019-3-11 11:50:08 -[READFROMCLINUX]- {clirad}/usr/home/dicomvix/move/clirad.csv  file unlinked
+2019-3-11 11:50:13 -[WRITETONEST]- Starting to read MonMar112019clirad.csv
+2019-3-11 11:50:13 -[WRITETONEST]- Starting executeAllTasks ./data/MonMar112019clirad.csv
+2019-3-11 11:50:14 -[WRITETONEST]- Truncated temp_indger
+2019-3-11 11:50:14 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-11 11:50:16 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-11 11:50:16 -[WRITETONEST]- Successfully  ./history/MonMar112019clirad.csv  moved
+2019-3-11 14:31:07 -[READFROMCLINUX]- {bertinetti}Begin writeFileDBSSH...
+2019-3-11 14:31:07 -[READFROMCLINUX]- {bertinetti}Testing ssh... {"host":"191.33.180.195","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-11 14:31:07 -[READFROMCLINUX]- {bertinetti}New Client OK bertinetti
+2019-3-11 14:31:10 -[READFROMCLINUX]- {bertinetti}STDOUT: COPY 10031
+
+2019-3-11 14:31:10 -[READFROMCLINUX]- {bertinetti}preparing remote file /usr/home/dicomvix/move/bertinetti.csv moving to ./data/MonMar112019bertinetti.csv
+2019-3-11 14:31:29 -[READFROMCLINUX]- {bertinetti}Succesfully DownLoaded
+2019-3-11 14:31:29 -[READFROMCLINUX]- {bertinetti}/usr/home/dicomvix/move/bertinetti.csv  file unlinked
+2019-3-11 14:31:34 -[WRITETONEST]- Starting to read MonMar112019bertinetti.csv
+2019-3-11 14:31:34 -[WRITETONEST]- Starting executeAllTasks ./data/MonMar112019bertinetti.csv
+2019-3-11 14:31:35 -[WRITETONEST]- Truncated temp_indger
+2019-3-11 14:31:36 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-11 14:31:42 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-11 14:31:42 -[WRITETONEST]- Successfully  ./history/MonMar112019bertinetti.csv  moved
+2019-3-11 15:58:43 -[READFROMCLINUX]- {cdisalvador}Begin writeFileDBSSH...
+2019-3-11 15:58:43 -[READFROMCLINUX]- {cdisalvador}Testing ssh... {"host":"cdisalvador.zapto.org","port":22,"username":"dicomvix","password":"system98"}
+2019-3-11 15:58:43 -[READFROMCLINUX]- {cdisalvador}New Client OK cdisalvador
+2019-3-11 15:58:46 -[READFROMCLINUX]- {cdisalvador}STDOUT: COPY 13585
+
+2019-3-11 15:58:46 -[READFROMCLINUX]- {cdisalvador}preparing remote file /usr/home/dicomvix/move/cdisalvador.csv moving to ./data/MonMar112019cdisalvador.csv
+2019-3-11 15:59:07 -[READFROMCLINUX]- {cdisalvador}Succesfully DownLoaded
+2019-3-11 15:59:07 -[READFROMCLINUX]- {cdisalvador}/usr/home/dicomvix/move/cdisalvador.csv  file unlinked
+2019-3-11 15:59:12 -[WRITETONEST]- Starting to read MonMar112019cdisalvador.csv
+2019-3-11 15:59:12 -[WRITETONEST]- Starting executeAllTasks ./data/MonMar112019cdisalvador.csv
+2019-3-11 15:59:13 -[WRITETONEST]- Truncated temp_indger
+2019-3-11 15:59:13 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-11 15:59:23 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-11 15:59:23 -[WRITETONEST]- Successfully  ./history/MonMar112019cdisalvador.csv  moved
+2019-3-11 16:14:21 -[READFROMCLINUX]- {cepem}Begin writeFileDBSSH...
+2019-3-11 16:14:21 -[READFROMCLINUX]- {cepem}Testing ssh... {"host":"177.124.226.98","port":527,"username":"clinuxweb","password":"ClinuX99Fb"}
+2019-3-11 16:14:21 -[READFROMCLINUX]- {cepem}New Client OK cepem
+2019-3-11 16:14:24 -[READFROMCLINUX]- {cepem}STDOUT: COPY 52001
+
+2019-3-11 16:14:24 -[READFROMCLINUX]- {cepem}preparing remote file /home/clinuxweb/move/cepem.csv moving to ./data/MonMar112019cepem.csv
+2019-3-11 16:14:29 -[READFROMCLINUX]- {cepem}Succesfully DownLoaded
+2019-3-11 16:14:29 -[READFROMCLINUX]- {cepem}/home/clinuxweb/move/cepem.csv  file unlinked
+2019-3-11 16:17:28 -[READFROMCLINUX]- {cepem}Begin writeFileDBSSH...
+2019-3-11 16:17:28 -[READFROMCLINUX]- {cepem}Testing ssh... {"host":"177.124.226.98","port":527,"username":"clinuxweb","password":"ClinuX99Fb"}
+2019-3-11 16:17:28 -[READFROMCLINUX]- {cepem}New Client OK cepem
+2019-3-11 16:17:28 -[READFROMCLINUX]- {cepem}STDOUT: COPY 1127
+
+2019-3-11 16:17:28 -[READFROMCLINUX]- {cepem}preparing remote file /home/clinuxweb/move/cepem.csv moving to ./data/MonMar112019cepem.csv
+2019-3-11 16:17:29 -[READFROMCLINUX]- {cepem}Succesfully DownLoaded
+2019-3-11 16:17:29 -[READFROMCLINUX]- {cepem}/home/clinuxweb/move/cepem.csv  file unlinked
+2019-3-11 17:06:38 -[READFROMCLINUX]- {cdi-uberlandia}Begin writeFileDBSSH...
+2019-3-11 17:06:38 -[READFROMCLINUX]- {cdi-uberlandia}Testing ssh... {"host":"cdiub.zapto.org","port":1157,"username":"dicomvix","password":"system98"}
+2019-3-11 17:06:38 -[READFROMCLINUX]- {cdi-uberlandia}New Client OK cdi-uberlandia
+2019-3-11 17:06:39 -[READFROMCLINUX]- {cdi-uberlandia}STDOUT: COPY 15946
+
+2019-3-11 17:06:40 -[READFROMCLINUX]- {cdi-uberlandia}preparing remote file /usr/home/dicomvix/move/cdiuberlandia.csv moving to ./data/MonMar112019cdi-uberlandia.csv
+2019-3-11 17:06:48 -[READFROMCLINUX]- {cdi-uberlandia}Succesfully DownLoaded
+2019-3-11 17:06:48 -[READFROMCLINUX]- {cdi-uberlandia}/usr/home/dicomvix/move/cdiuberlandia.csv  file unlinked
+2019-3-11 17:06:53 -[WRITETONEST]- Starting to read MonMar112019cdi-uberlandia.csv
+2019-3-11 17:06:53 -[WRITETONEST]- Starting executeAllTasks ./data/MonMar112019cdi-uberlandia.csv
+2019-3-11 17:06:54 -[WRITETONEST]- Truncated temp_indger
+2019-3-11 17:06:54 -[WRITETONEST]- Completed loading data into temp_indger
+2019-3-11 17:07:03 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2019-3-11 17:07:03 -[WRITETONEST]- Successfully  ./history/MonMar112019cdi-uberlandia.csv  moved
