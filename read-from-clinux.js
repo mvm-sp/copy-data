@@ -1,6 +1,7 @@
 //https://ourcodeworld.com/articles/read/133/how-to-create-a-sftp-client-with-node-js-ssh2-in-electron-framework
 var fs = require('fs');
-var Client = require('ssh2').Client;
+var ClientSSH = require('ssh2').Client;
+const { Pool, Client} = require('pg')
 var util = require('util');
 //var Regex = require("regex");
 const output = fs.createWriteStream('./log/process.log', { flags: 'a' });
@@ -8,6 +9,15 @@ const errorOutput = fs.createWriteStream('./log/error.log', { flags: 'a' });
 const datReg = new RegExp( /^((19|2\d)\d\d)-((0?[1-9])|(1[0-2]))-((0?[1-9])|([12]\d)|(3[01]))/);
 let rawdata = fs.readFileSync('parameter.json');  
 let runParam = JSON.parse(rawdata);
+const configDB = require('./config.json')
+
+// Getting connectin parameters from config.json
+const host = configDB.host
+const user = configDB.user
+const pw = configDB.pw
+const db = configDB.db
+const port = configDB.port
+const conString = `postgres://${user}:${pw}@${host}:${port}/${db}`
 
 
 /*
@@ -33,6 +43,7 @@ console.error = function(...args) {
     errorOutput.write(new Date().toLocaleString() + ' -[READFROMCLINUX]- ' + util.format(op) + '\r\n');
 };
 
+/*
 var config = {
     1:{
       idClient: 1  ,
@@ -230,14 +241,29 @@ var config = {
         psql : 'psql -U dicomvix -d clinux_tomoclinica -c'
     }
 }
-
+*/
 var args = process.argv.slice(2);
 
-var clientData = config[args[0]];
+//var clientData = config[args[0]];
 
-var connSettings = clientData.connSettings;
+//Variavel para Acessar cliente
+var clientData ;
+//Variavel para String de Conexão do Cliente
+var connSettings ;
+
+// Connecting to Database
+const clientPG = new Client({
+    connectionString: conString,
+  });
+ 
+clientPG.connect();
+
+
+
+
 
 function writeFileDBSSH(){
+
     console.log('{' + clientData.name  + '}' +'Begin writeFileDBSSH...');
     var _sqlParam = '';
     var localQuery = fs.readFileSync('./sql/read-from-clinux.sql', 'utf8');
@@ -257,7 +283,7 @@ function writeFileDBSSH(){
     var remotePath = clientData.remoteDir;
     var commandPsql = clientData.psql + ' "copy (' + localQuery + ') TO \'' + remotePath + '\'  with CSV DELIMITER \';\' HEADER"';
     console.log('{' + clientData.name  + '}' +'Testing ssh...', connSettings);
-    var conn = new Client();
+    var conn = new ClientSSH();
     console.log('{' + clientData.name  + '}' +'New Client OK', clientData.name)
     conn.on('ready', function() {
         conn.exec(commandPsql , 
@@ -297,7 +323,7 @@ function writeFileDBSSH(){
 function downloadDirSSH(){
     var remotePathToList = '/usr/home/dicomvix/move';
     console.log('Testando ssh...', connSettings )
-    var conn = new Client();
+    var conn = new ClientSSH();
     console.log('New Client OK')
     conn.on('ready', function() {
         conn.sftp(function(err, sftp) {
@@ -335,7 +361,7 @@ function downloadDirSSH(){
 function testSSH(){
     var remotePathToList = '/usr/home/dicomvix/scripts';
     console.log('Testando ssh...', connSettings )
-    var conn = new Client();
+    var conn = new ClientSSH();
     console.log('New Client OK')
     conn.on('ready', function() {
         conn.sftp(function(err, sftp) {
@@ -360,7 +386,7 @@ function testSSH(){
 }
 
 function sshDownloadFile(){
-    var conn = new Client();
+    var conn = new ClientSSH();
     conn.on('ready', function() {
         conn.sftp(function(err, sftp) {
             if (err) throw err;
@@ -380,7 +406,7 @@ function sshDownloadFile(){
 }
 
 function sshUploadFile(){
-    var conn = new Client();
+    var conn = new ClientSSH();
     conn.on('ready', function() {
         conn.sftp(function(err, sftp) {
             if (err) throw err;
@@ -407,7 +433,7 @@ function sshUploadFile(){
 function removeFileSSH(){
     var remotePathToList = '/tmp/feriados.csv';
 
-    var conn = new Client();
+    var conn = new ClientSSH();
     conn.on('ready', function() {
         conn.sftp(function(err, sftp) {
              if (err) throw err;
@@ -436,8 +462,38 @@ function debugConfig(){
   
 };
 
-writeFileDBSSH();
+const ExecuteTaskInHost = ()=>{
+
+    console.log("Connection String:  " ,  conString);
+
+    clientPG.query('SELECT * FROM prgetjsonclienthost(' + args + ')').then(res => {
+
+        const data = res.rows;
+    
+        console.log('Dados de Acesso');
+        data.forEach(row => {
+            var result = JSON.stringify(row.prgetjsonclienthost);
+            console.log('Linha retornada : ', result);
+            clientData = JSON.parse(result);
+            connSettings = clientData.connSettings;
+            console.log('Param: ', clientData);
+            console.log('Client Connection String: ', connSettings);
+        })
+    
+        console.log('Configurações obtidas com sucesso:');
+        writeFileDBSSH();
+    }).catch(err => {
+        console.error('Erro ao obter parâmetros de acesso ao cliente:',err.stack);
+    }).finally(() => {
+        clientPG.end()
+    });
+    
+};
+
+ExecuteTaskInHost();
+//writeFileDBSSH();
 
 
 
 //debugConfig();
+

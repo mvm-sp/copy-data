@@ -1,46 +1,26 @@
-2019-2-26 16:51:30 -[WRITETONEST]- Error in creating stream error: invalid input syntax for integer: "idclient;date_mes;cdagreement;agreement;cd_healthplan;ds_healthplan;codigo_examprocedure;cd_examprocedure;descr_examprocedure;cd_modality;modality;nr_reccontrol;dt_date;cd_patient;ds_patient;crm_requester;name_requester;schedule_name;receptionist_name;technical_name;crm_performer;name_performer;ds_room;nr_qte;nr_vl_co;nr_vl_hm;nr_vl_mf;nr_vl_ct;nr_vl_md;nr_vl_personal;nr_total;dt_time;ds_time_waiting;ds_company;ds_time_form;ds_time_execution;ds_time_delay;dt_scheduling;nr_schedule;ds_schedule_healthplan;sn_contrast;nr_vl_tx"
-2019-2-26 17:00:37 -[WRITETONEST]- Error in creating stream error: invalid byte sequence for encoding "UTF8": 0xc7 0x41
-2019-2-27 14:08:14 -[WRITETONEST]- Error in creating read stream Error: ENOENT: no such file or directory, open 'C:\projetos\BI\NEST\Copy-Data\data\TueFeb262019Delfos.csv'
-2019-2-27 14:09:25 -[WRITETONEST]- Error in creating read stream Error: ENOENT: no such file or directory, open 'C:\projetos\BI\NEST\Copy-Data\data\TueFeb272019Delfos.csv'
-2019-2-27 14:21:56 -[WRITETONEST]- Error in creating stream error: unexpected message type 0x58 during COPY from stdin
-2019-2-27 14:26:42 -[WRITETONEST]- Error in creating stream error: unexpected message type 0x58 during COPY from stdin
-2019-2-27 14:32:05 -[WRITETONEST]- Error in creating stream error: unexpected message type 0x58 during COPY from stdin on ./data/TueFeb272019Delfos.csv
-2019-2-27 14:34:23 -[WRITETONEST]- Error in creating read stream Error: ENOENT: no such file or directory, open 'C:\projetos\BI\NEST\Copy-Data\data\TueFeb272019Delfos.csv' on ./data/TueFeb272019Delfos.csv
-2019-2-27 14:46:33 -[WRITETONEST]- Error in creating stream error: unexpected message type 0x58 during COPY from stdin on ./data/TueFeb272019Delfos.csv
-2019-2-27 14:50:17 -[WRITETONEST]- Error!
-2019-2-27 15:01:08 -[WRITETONEST]- Something were wrong ReferenceError: file is not defined
-2019-2-27 15:01:08 -[WRITETONEST]- Something were wrong ReferenceError: file is not defined
-2019-2-27 15:01:08 -[WRITETONEST]- Error in creating read stream Error: ENOENT: no such file or directory, open '' on 
-2019-2-27 15:01:08 -[WRITETONEST]- Error in creating read stream Error: ENOENT: no such file or directory, open '' on 
-2019-2-27 15:02:42 -[WRITETONEST]- Error in creating stream error: unexpected message type 0x58 during COPY from stdin on ./data/TueFeb272019Delfos.csv
-2019-2-27 15:02:42 -[WRITETONEST]- Error in creating stream error: unexpected message type 0x58 during COPY from stdin on ./data/TueFeb272019Delfos.csv
-2019-2-27 15:29:40 -[WRITETONEST]- Error in creating stream error: unexpected message type 0x58 during COPY from stdin on ./data/TueFeb272019Delfos.csv
-2019-2-27 15:36:45 -[WRITETONEST]- Error in creating read stream Error: ENOENT: no such file or directory, open 'C:\projetos\BI\NEST\Copy-Data\data\TueFeb262019Delfos.csv' on ./data/TueFeb262019Delfos.csv
-2019-2-27 15:46:30 -[WRITETONEST]- Error in creating read stream Error: ENOENT: no such file or directory, open 'C:\projetos\BI\NEST\Copy-Data\data\TueFeb262019Delfos.csv' on ./data/TueFeb262019Delfos.csv
-2019-2-27 15:54:48 -[WRITETONEST]- Error on processFile  TypeError: Cannot read property 'catch' of undefined
-2019-2-27 15:56:47 -[WRITETONEST]- Error on processFile (try) TypeError: Cannot read property 'catch' of undefined
-2019-2-27 15:57:33 -[WRITETONEST]- Something were wrong TypeError: Cannot read property 'catch' of undefined
-2019-2-27 15:57:33 -[WRITETONEST]- (node:15084) UnhandledPromiseRejectionWarning: ReferenceError: reject is not defined
-    at C:\projetos\BI\NEST\Copy-Data\write-to-nest.js:167:17
-2019-2-27 15:57:33 -[WRITETONEST]- (node:15084) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
-2019-2-27 15:57:33 -[WRITETONEST]- (node:15084) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-2019-2-27 16:07:51 -[WRITETONEST]- (node:19680) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'then' of undefined
-    at processFile (C:\projetos\BI\NEST\Copy-Data\write-to-nest.js:176:45)
-    at fs.readdir (C:\projetos\BI\NEST\Copy-Data\write-to-nest.js:160:11)
-    at FSReqWrap.oncomplete (fs.js:141:20)
-2019-2-27 16:07:51 -[WRITETONEST]- (node:19680) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-2019-2-27 16:07:51 -[WRITETONEST]- (node:19680) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-2019-2-27 16:09:55 -[WRITETONEST]- (node:24552) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'then' of undefined
-    at processFile (C:\projetos\BI\NEST\Copy-Data\write-to-nest.js:176:45)
-    at fs.readdir (C:\projetos\BI\NEST\Copy-Data\write-to-nest.js:160:11)
-    at FSReqWrap.oncomplete (fs.js:141:20)
-2019-2-27 16:09:55 -[WRITETONEST]- (node:24552) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-2019-2-27 16:09:55 -[WRITETONEST]- (node:24552) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-2019-2-27 16:19:06 -[WRITETONEST]- (node:21460) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'catch' of undefined
-    at processFile (C:\projetos\BI\NEST\Copy-Data\write-to-nest.js:176:85)
-    at fs.readdir (C:\projetos\BI\NEST\Copy-Data\write-to-nest.js:160:11)
-    at FSReqWrap.oncomplete (fs.js:141:20)
-2019-2-27 16:19:06 -[WRITETONEST]- (node:21460) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-2019-2-27 16:19:06 -[WRITETONEST]- (node:21460) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-2019-2-27 16:31:45 -[WRITETONEST]- Error in creating read stream Error: ENOENT: no such file or directory, open 'C:\projetos\BI\NEST\Copy-Data\data\undefined' on ./data/undefined
-2019-3-6 20:38:15 -[WRITETONEST]- Error in creating stream error: could not extend file "base/16604/18420": wrote only 4096 of 8192 bytes at block 48484 on ./data/WedMar062019cepem.csv
+2020-3-11 18:58:28 -[READFROMCLINUX]- Erro ao obter parâmetros de acesso ao cliente: TypeError: Cannot convert undefined or null to object
+    at Function.getPrototypeOf (<anonymous>)
+    at Object.console.log (C:\Projetos\git\BI\copy-data\read-from-clinux.js:28:19)
+    at C:\Projetos\git\BI\copy-data\read-from-clinux.js:269:17
+    at Array.forEach (<anonymous>)
+    at C:\Projetos\git\BI\copy-data\read-from-clinux.js:267:10
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-3-11 18:59:25 -[READFROMCLINUX]- Erro ao obter parâmetros de acesso ao cliente: SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at C:\Projetos\git\BI\copy-data\read-from-clinux.js:270:27
+    at Array.forEach (<anonymous>)
+    at C:\Projetos\git\BI\copy-data\read-from-clinux.js:267:10
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-3-11 18:59:52 -[READFROMCLINUX]- Erro ao obter parâmetros de acesso ao cliente: SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at C:\Projetos\git\BI\copy-data\read-from-clinux.js:270:27
+    at Array.forEach (<anonymous>)
+    at C:\Projetos\git\BI\copy-data\read-from-clinux.js:267:10
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-3-11 19:07:55 -[READFROMCLINUX]- Erro ao obter parâmetros de acesso ao cliente: TypeError: Cannot convert undefined or null to object
+    at Function.getPrototypeOf (<anonymous>)
+    at Object.console.log (C:\Projetos\git\BI\copy-data\read-from-clinux.js:28:19)
+    at C:\Projetos\git\BI\copy-data\read-from-clinux.js:273:17
+    at Array.forEach (<anonymous>)
+    at C:\Projetos\git\BI\copy-data\read-from-clinux.js:267:10
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
