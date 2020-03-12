@@ -5,13 +5,14 @@
   "main": "promise-read.js",
   "dependencies": {
     "console-stamp": "^0.2.7",
-    "pg-copy-streams": "^1.2.0",
     "log-timestamp": "^0.3.0",
+    "node-rsa": "^1.0.7",
     "pg": "^6.1.0",
+    "pg-copy-streams": "^1.2.0",
     "ssh2": "^0.8.2",
+    "tunnel-ssh": "^4.1.4",
     "winston": "^3.2.1",
-    "winston-daily-rotate-file": "^3.8.0",
-    "tunnel-ssh": "^4.1.4"
+    "winston-daily-rotate-file": "^3.8.0"
   },
   "devDependencies": {},
   "scripts": {

@@ -1,28 +1,13 @@
-2020-3-11 19:22:48 -[READFROMCLINUX]- Connection String:   postgres://postgres:TjYz3m@201.20.7.33:5890/nestbidb
-2020-3-11 19:22:48 -[READFROMCLINUX]- Dados de Acesso
-2020-3-11 19:22:48 -[READFROMCLINUX]- Linha retornada :  {"idClient":10,"name":"MI-ST","connSettings":{"host":"187.92.71.162","port":"1157","username":"clinuxweb","password":"ClinuX99Fb"},"remoteDir":"/usr/home/clinuxweb/move/megaimagen.csv","psql":"psql -U clinux -d clinux_megaimagem -c "}
-2020-3-11 19:22:48 -[READFROMCLINUX]- Param:  {"idClient":10,"name":"MI-ST","connSettings":{"host":"187.92.71.162","port":"1157","username":"clinuxweb","password":"ClinuX99Fb"},"remoteDir":"/usr/home/clinuxweb/move/megaimagen.csv","psql":"psql -U clinux -d clinux_megaimagem -c "}
-2020-3-11 19:22:48 -[READFROMCLINUX]- Client Connection String:  {"host":"187.92.71.162","port":"1157","username":"clinuxweb","password":"ClinuX99Fb"}
-2020-3-11 19:22:48 -[READFROMCLINUX]- Configurações obtidas com sucesso:
-2020-3-11 19:30:26 -[READFROMCLINUX]- Connection String:   postgres://postgres:TjYz3m@201.20.7.33:5890/nestbidb
-2020-3-11 19:30:26 -[READFROMCLINUX]- Dados de Acesso
-2020-3-11 19:30:26 -[READFROMCLINUX]- Linha retornada :  {"idClient":10,"name":"MI-ST","connSettings":{"host":"187.92.71.162","port":"1157","username":"clinuxweb","password":"ClinuX99Fb"},"remoteDir":"/usr/home/clinuxweb/move/megaimagen.csv","psql":"psql -U clinux -d clinux_megaimagem -c "}
-2020-3-11 19:30:26 -[READFROMCLINUX]- Param:  {"idClient":10,"name":"MI-ST","connSettings":{"host":"187.92.71.162","port":"1157","username":"clinuxweb","password":"ClinuX99Fb"},"remoteDir":"/usr/home/clinuxweb/move/megaimagen.csv","psql":"psql -U clinux -d clinux_megaimagem -c "}
-2020-3-11 19:30:26 -[READFROMCLINUX]- Client Connection String:  {"host":"187.92.71.162","port":"1157","username":"clinuxweb","password":"ClinuX99Fb"}
-2020-3-11 19:30:26 -[READFROMCLINUX]- Configurações obtidas com sucesso:
-2020-3-11 19:31:12 -[READFROMCLINUX]- Connection String:   postgres://postgres:TjYz3m@201.20.7.33:5890/nestbidb
-2020-3-11 19:31:12 -[READFROMCLINUX]- Dados de Acesso
-2020-3-11 19:31:12 -[READFROMCLINUX]- Linha retornada :  {"idClient":10,"name":"MI-ST","connSettings":{"host":"187.92.71.162","port":"1157","username":"clinuxweb","password":"ClinuX99Fb"},"remoteDir":"/usr/home/clinuxweb/move/megaimagen.csv","psql":"psql -U clinux -d clinux_megaimagem -c "}
-2020-3-11 19:31:12 -[READFROMCLINUX]- Param:  {"idClient":10,"name":"MI-ST","connSettings":{"host":"187.92.71.162","port":"1157","username":"clinuxweb","password":"ClinuX99Fb"},"remoteDir":"/usr/home/clinuxweb/move/megaimagen.csv","psql":"psql -U clinux -d clinux_megaimagem -c "}
-2020-3-11 19:31:12 -[READFROMCLINUX]- Client Connection String:  {"host":"187.92.71.162","port":"1157","username":"clinuxweb","password":"ClinuX99Fb"}
-2020-3-11 19:31:12 -[READFROMCLINUX]- Configurações obtidas com sucesso:
-2020-3-11 19:31:12 -[READFROMCLINUX]- {MI-ST}Begin writeFileDBSSH...
-2020-3-11 19:31:12 -[READFROMCLINUX]- {MI-ST} Parameter DateIni  2020-03-01  Parameter DateFin  2020-03-02
-2020-3-11 19:31:12 -[READFROMCLINUX]- {MI-ST}Query Parameter...  and ae.dt_data >= '2020-03-01 00:00:01'::date   and ae.dt_data <= '2020-03-02 23:59:59'::date  
-2020-3-11 19:31:12 -[READFROMCLINUX]- {MI-ST}Testing ssh... {"host":"187.92.71.162","port":"1157","username":"clinuxweb","password":"ClinuX99Fb"}
-2020-3-11 19:31:12 -[READFROMCLINUX]- {MI-ST}New Client OK MI-ST
-2020-3-11 19:31:17 -[READFROMCLINUX]- {MI-ST}STDOUT: COPY 866
+2020-3-12 12:11:56 -[READFROMCLINUX]- Connection String:   lYSBRCRFS9rAtWiF+4kZ8Z8BXYmaawRrB0qWbxrGIi3yopzVac7FfV3PaQ7Hk5u/5ONLNZEY73U51NZioKLv9aBffVZdFEoMfOhgCxhLOOiMSaKEZ4wGYYJ/URlhOaI6Mn6+PKnY2M10TqxGVFuwWOrElCOoboTvpEknCDImAKlqi2I03ryAshxX5919ELmf7PfB5rA3IyhiwnzlrLkNzCNytTRx3F+eRpii2b8gl5SaK3xJqFPpP/2p2VkDlADi
+2020-3-12 12:11:57 -[READFROMCLINUX]- Dados de Acesso ao Cliente: SELECT * FROM prgetjsonclienthost(10)
+2020-3-12 12:11:57 -[READFROMCLINUX]- Configurações obtidas com sucesso:
+2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST}Begin writeFileDBSSH...
+2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST} Parameter DateIni  2020-03-01  Parameter DateFin  2020-03-02
+2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST}Query Parameter...  and ae.dt_data >= '2020-03-01 00:00:01'::date   and ae.dt_data <= '2020-03-02 23:59:59'::date  
+2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST}Testing ssh... iMPfeuz/RTy2PCQwmw2fehB1hOU1Zx5TsUAOqPk/4yRoPmzxY+yUA+6Xkc3+bt5oUzdHSuNAT++QUtxLKgSUTAydPBd7vwPG/yf3YU6NrBqDZiWkUflEHhNbq/gR8meeIXMYvtuq4b3ZUSD9B7dh9iBMIfkl4eq3zXfXLoJvi7hbQfyKx8pjj6iASVoqZnuKUeaXxUUJcqyRrTdzGaGmyslRVjWyErRPaRMu4JDUnJBaORMnr4G2EO34y9/iKOwnGFWz0v6kJCNb+Fz0pBakIkbVp3VABkRjQIvweY0uP/zFwslhaBlpe1iePFbYvXU/VeF87MYgKGxD+DBZSKc/Pg==
+2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST}New Client OK MI-ST
+2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST}STDOUT: COPY 866
 
-2020-3-11 19:31:17 -[READFROMCLINUX]- {MI-ST}preparing remote file /usr/home/clinuxweb/move/megaimagen.csv moving to ./data/WedMar112020MI-ST.csv
-2020-3-11 19:31:18 -[READFROMCLINUX]- {MI-ST}Succesfully DownLoaded
-2020-3-11 19:31:18 -[READFROMCLINUX]- {MI-ST}/usr/home/clinuxweb/move/megaimagen.csv  file unlinked
+2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST}preparing remote file /usr/home/clinuxweb/move/megaimagen.csv moving to ./data/ThuMar122020MI-ST.csv
+2020-3-12 12:11:58 -[READFROMCLINUX]- {MI-ST}Succesfully DownLoaded
+2020-3-12 12:11:58 -[READFROMCLINUX]- {MI-ST}/usr/home/clinuxweb/move/megaimagen.csv  file unlinked

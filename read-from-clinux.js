@@ -10,6 +10,7 @@ const datReg = new RegExp( /^((19|2\d)\d\d)-((0?[1-9])|(1[0-2]))-((0?[1-9])|([12
 let rawdata = fs.readFileSync('parameter.json');  
 let runParam = JSON.parse(rawdata);
 const configDB = require('./config.json')
+const crypt = require('./crypto').EncryptObj;
 
 // Getting connectin parameters from config.json
 const host = configDB.host
@@ -282,7 +283,7 @@ function writeFileDBSSH(){
     console.log('{' + clientData.name  + '}' +'Query Parameter...', _sqlParam);    
     var remotePath = clientData.remoteDir;
     var commandPsql = clientData.psql + ' "copy (' + localQuery + ') TO \'' + remotePath + '\'  with CSV DELIMITER \';\' HEADER"';
-    console.log('{' + clientData.name  + '}' +'Testing ssh...', connSettings);
+    console.log('{' + clientData.name  + '}' +'Testing ssh...', crypt(connSettings));
     var conn = new ClientSSH();
     console.log('{' + clientData.name  + '}' +'New Client OK', clientData.name)
     conn.on('ready', function() {
@@ -464,20 +465,20 @@ function debugConfig(){
 
 const ExecuteTaskInHost = ()=>{
 
-    console.log("Connection String:  " ,  conString);
-
-    clientPG.query('SELECT * FROM prgetjsonclienthost(' + args + ')').then(res => {
+    console.log("Connection String:  " ,  crypt(conString));
+    var sQuery = 'SELECT * FROM prgetjsonclienthost(' + args + ')';
+    clientPG.query(sQuery).then(res => {
 
         const data = res.rows;
     
-        console.log('Dados de Acesso');
+        console.log('Dados de Acesso ao Cliente:', sQuery);
         data.forEach(row => {
             var result = JSON.stringify(row.prgetjsonclienthost);
-            console.log('Linha retornada : ', result);
+            //console.log('Linha retornada : ', result);
             clientData = JSON.parse(result);
             connSettings = clientData.connSettings;
-            console.log('Param: ', clientData);
-            console.log('Client Connection String: ', connSettings);
+            //console.log('Param: ', clientData);
+            //console.log('Client Connection String: ', connSettings);
         })
     
         console.log('Configurações obtidas com sucesso:');
