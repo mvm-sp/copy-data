@@ -8,16 +8,27 @@ const output = fs.createWriteStream('./log/process.log', { flags: 'a' });
 const errorOutput = fs.createWriteStream('./log/error.log', { flags: 'a' });
 const datReg = new RegExp( /^((19|2\d)\d\d)-((0?[1-9])|(1[0-2]))-((0?[1-9])|([12]\d)|(3[01]))/);
 let rawdata = fs.readFileSync('parameter.json');  
+let rawConn = fs.readFileSync('conn.json'); 
 let runParam = JSON.parse(rawdata);
+let runConn = JSON.parse(rawConn);
 const configDB = require('./config.json')
 const crypt = require('./crypto').EncryptObj;
+const decrypt = require('./crypto').DecryptObj;
 
 // Getting connectin parameters from config.json
-const host = configDB.host
-const user = configDB.user
-const pw = configDB.pw
-const db = configDB.db
-const port = configDB.port
+/*const host = configDB.host
+ const user = configDB.user
+ const pw = configDB.pw
+ const db = configDB.db
+ const port = configDB.port
+*/
+
+const host = decrypt(runConn.host);
+const user = decrypt(runConn.user);
+const pw = decrypt(runConn.pw);
+const db = decrypt(runConn.db);
+const port = decrypt(runConn.port);
+
 const conString = `postgres://${user}:${pw}@${host}:${port}/${db}`
 
 
@@ -252,10 +263,10 @@ var clientData ;
 //Variavel para String de Conexão do Cliente
 var connSettings ;
 
-// Connecting to Database
+//Connecting to Database
 const clientPG = new Client({
     connectionString: conString,
-  });
+});
  
 clientPG.connect();
 
@@ -491,7 +502,24 @@ const ExecuteTaskInHost = ()=>{
     
 };
 
+function WriteDebugTest(){
+
+    console.log("Host = ", decrypt(runConn.host));
+    console.log("user = ", decrypt(runConn.user));
+    console.log("pw = ", decrypt(runConn.pw));
+    console.log("db = ", decrypt(runConn.db));
+    console.log("port = ", decrypt(runConn.port));
+    
+    var mconString = `postgres://${user}:${pw}@${host}:${port}/${db}`;
+    console.log("conString = ", mconString);
+}
+
+
+//WriteDebugTest();
+
 ExecuteTaskInHost();
+
+
 //writeFileDBSSH();
 
 

@@ -1,13 +1,51 @@
-2020-3-12 12:11:56 -[READFROMCLINUX]- Connection String:   lYSBRCRFS9rAtWiF+4kZ8Z8BXYmaawRrB0qWbxrGIi3yopzVac7FfV3PaQ7Hk5u/5ONLNZEY73U51NZioKLv9aBffVZdFEoMfOhgCxhLOOiMSaKEZ4wGYYJ/URlhOaI6Mn6+PKnY2M10TqxGVFuwWOrElCOoboTvpEknCDImAKlqi2I03ryAshxX5919ELmf7PfB5rA3IyhiwnzlrLkNzCNytTRx3F+eRpii2b8gl5SaK3xJqFPpP/2p2VkDlADi
-2020-3-12 12:11:57 -[READFROMCLINUX]- Dados de Acesso ao Cliente: SELECT * FROM prgetjsonclienthost(10)
-2020-3-12 12:11:57 -[READFROMCLINUX]- Configurações obtidas com sucesso:
-2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST}Begin writeFileDBSSH...
-2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST} Parameter DateIni  2020-03-01  Parameter DateFin  2020-03-02
-2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST}Query Parameter...  and ae.dt_data >= '2020-03-01 00:00:01'::date   and ae.dt_data <= '2020-03-02 23:59:59'::date  
-2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST}Testing ssh... iMPfeuz/RTy2PCQwmw2fehB1hOU1Zx5TsUAOqPk/4yRoPmzxY+yUA+6Xkc3+bt5oUzdHSuNAT++QUtxLKgSUTAydPBd7vwPG/yf3YU6NrBqDZiWkUflEHhNbq/gR8meeIXMYvtuq4b3ZUSD9B7dh9iBMIfkl4eq3zXfXLoJvi7hbQfyKx8pjj6iASVoqZnuKUeaXxUUJcqyRrTdzGaGmyslRVjWyErRPaRMu4JDUnJBaORMnr4G2EO34y9/iKOwnGFWz0v6kJCNb+Fz0pBakIkbVp3VABkRjQIvweY0uP/zFwslhaBlpe1iePFbYvXU/VeF87MYgKGxD+DBZSKc/Pg==
-2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST}New Client OK MI-ST
-2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST}STDOUT: COPY 866
+2020-4-1 8:11:44 -[READFROMCLINUX]- Host =  m65HXQJY10wabWs7JgszPADPNs/oK1OCP1m0u+qL0hLjh+mbfamOhjYE07cIk23+6+/P73dyCL01LvlbAXgf8A==
+2020-4-1 8:11:44 -[READFROMCLINUX]- user =  Y3MKc8Lf6+Baql6Yma3nyE2DY5YXx+hrIU0WK0VC+1vk5evEuvwc46eaITA3wnkXYqWdBSWeFXowiWjZX7I0VQ==
+2020-4-1 8:11:44 -[READFROMCLINUX]- pw =  TLTpMLrV2PN+EzrhCTjgANcVmBkaLwvummfBrQ8d40PpyS5wgbDQ2p0ulW4EEsvhfcOAvrRT2pPradFkNr0LHQ==
+2020-4-1 8:11:44 -[READFROMCLINUX]- db =  Kpesg4O1MkNcV1iLD1bfs0OAa4Eei5HI3h/rHs1cqDkxLqED8OYFtDLluvw7NK4nWiLGt3+/zwn/GTnB1alwaA==
+2020-4-1 8:11:44 -[READFROMCLINUX]- port =  jbojbq9FNxRdpu73yw9UlSiNUZ6Md/20sdiob+qzd1WxX3HAxKncNJ6xJic3CDj7oxNGNSc4cA2naO4+XjaMSA==
+2020-4-1 8:11:44 -[READFROMCLINUX]- port =  a63F7yOOJ3YTmWXB/rDAZ3lHVQWtyBJ4DiDZnZlk1a2CVaGBes3CKywW5tCagNAWmv2qAaU8occ8BcBV/L8HUaImBqBZnoEE7ekoAjEwGwF+Pu6pjJ61rsqZBzgZe5d7e/7HxgqaOQ9Q9DxtaDhtnUpAz5RKrEZseE/UIX2j7aqUyrsK3e0X+f76sIObyjJ0NnK/ZfIBijjT6nwpsLzAUl+U5UaX6ks9u9IyO6htXFQtdDhX14NhWkl09Bu3j/vQ
+2020-4-1 8:17:25 -[READFROMCLINUX]- Host =  179.188.16.126
+2020-4-1 8:17:25 -[READFROMCLINUX]- user =  hml_nris
+2020-4-1 8:17:25 -[READFROMCLINUX]- pw =  TjYz3m
+2020-4-1 8:17:25 -[READFROMCLINUX]- db =  hml_nris
+2020-4-1 8:17:25 -[READFROMCLINUX]- port =  5432
+2020-4-1 8:17:25 -[READFROMCLINUX]- conString =  postgres://Y3MKc8Lf6+Baql6Yma3nyE2DY5YXx+hrIU0WK0VC+1vk5evEuvwc46eaITA3wnkXYqWdBSWeFXowiWjZX7I0VQ==:TLTpMLrV2PN+EzrhCTjgANcVmBkaLwvummfBrQ8d40PpyS5wgbDQ2p0ulW4EEsvhfcOAvrRT2pPradFkNr0LHQ==@m65HXQJY10wabWs7JgszPADPNs/oK1OCP1m0u+qL0hLjh+mbfamOhjYE07cIk23+6+/P73dyCL01LvlbAXgf8A==:jbojbq9FNxRdpu73yw9UlSiNUZ6Md/20sdiob+qzd1WxX3HAxKncNJ6xJic3CDj7oxNGNSc4cA2naO4+XjaMSA==/Kpesg4O1MkNcV1iLD1bfs0OAa4Eei5HI3h/rHs1cqDkxLqED8OYFtDLluvw7NK4nWiLGt3+/zwn/GTnB1alwaA==
+2020-4-1 8:22:05 -[READFROMCLINUX]- Host =  179.188.16.126
+2020-4-1 8:22:05 -[READFROMCLINUX]- user =  hml_nris
+2020-4-1 8:22:05 -[READFROMCLINUX]- pw =  TjYz3m
+2020-4-1 8:22:05 -[READFROMCLINUX]- db =  hml_nris
+2020-4-1 8:22:05 -[READFROMCLINUX]- port =  5432
+2020-4-1 8:22:05 -[READFROMCLINUX]- conString =  postgres://hml_nris:TjYz3m@179.188.16.126:5432/hml_nris
+2020-4-1 8:25:17 -[READFROMCLINUX]- Connection String:   cJ9WS0fvFENiAC090pLVZ7hTW3bLfC/F6gxvxbqGDmRlFFF3/0HVSGisqvOHD0Qwi5DeVDi06jgZ4uKIDFhi9SAqPmN7QlvblZ985I8otVysEN8BXdTRpBytUuGMqyo5tTXn+fC06Z1lhYlBWoN8yRKR33Ojb4Hmbtlj91luAY9aAvQwQs3+YlZirrkJ0m0QrV++oWNPk+tNdXli4KaO7gjysIP7if4TxUEDjhtUOVlM4/8hgrIlcVWa+xLKcsMb
+2020-4-1 8:29:30 -[READFROMCLINUX]- Connection String:   ZZm1Bnyh+P9qTISq6XZTkLOW9TSVZN0qywFF0ZGS7Dexb7Yls1T3JoAf3uoOaDVkI8iY59YsodlrX29ATs0GYncYitingD/P6nW/x+7A+Jj7zXtiTBa0lLD26aK2QLAK2DqHVWZAVOA8xHQz2RZHaw6iy9PMPUclxUp86e/J6I8y1PkxwKMqUyXmrezfZEeplpu4nH1MMaorlFE9pEp03oq27KS3wsGZzBoXeAonfRm/SWEVVW/9bT84UyfZXkP1
+2020-4-1 8:29:30 -[READFROMCLINUX]- Dados de Acesso ao Cliente: SELECT * FROM prgetjsonclienthost(14)
+2020-4-1 8:29:30 -[READFROMCLINUX]- Configurações obtidas com sucesso:
+2020-4-1 8:29:30 -[READFROMCLINUX]- {SG-AL}Begin writeFileDBSSH...
+2020-4-1 8:29:30 -[READFROMCLINUX]- {SG-AL} Parameter DateIni  2020-03-01  Parameter DateFin  2020-03-02
+2020-4-1 8:29:30 -[READFROMCLINUX]- {SG-AL}Query Parameter...  and ae.dt_data >= '2020-03-01 00:00:01'::date   and ae.dt_data <= '2020-03-02 23:59:59'::date  
+2020-4-1 8:29:30 -[READFROMCLINUX]- {SG-AL}Testing ssh... c1x3nW1dpJ/tbqdk3YmMUrMTXVMpQh/eTB21Kt+pN46d8iC5QlZqM1/vKWgUNiLJPRN+e09lFKwQGcAAtCrKBTE3/Kn0a34mbxAaPuiEYFfl3cTd6R0f6CwznN3e0Kds8YrZc8IjcOjvPZlKd3rb61+GCVFGDwhdZ5SHCruCx7OR9K89ev8IGfV1eEPKraY5rZofk9e4bukpXAVvSp6Fj2YyB+6KnDd2AwSsOUKGKS4SQn38mTnYvLxq4cuVVPB5Rw9DVcEa9/ocVLKjRx1VFjNlcJmSwKJnqtfHBRsW82NgY8DaOrK7f1tNtjArg/AYHFc+w3/Epal5OXM3+18+4Q==
+2020-4-1 8:29:30 -[READFROMCLINUX]- {SG-AL}New Client OK SG-AL
+2020-4-1 8:29:38 -[READFROMCLINUX]- {SG-AL}STDOUT: COPY 419
 
-2020-3-12 12:11:57 -[READFROMCLINUX]- {MI-ST}preparing remote file /usr/home/clinuxweb/move/megaimagen.csv moving to ./data/ThuMar122020MI-ST.csv
-2020-3-12 12:11:58 -[READFROMCLINUX]- {MI-ST}Succesfully DownLoaded
-2020-3-12 12:11:58 -[READFROMCLINUX]- {MI-ST}/usr/home/clinuxweb/move/megaimagen.csv  file unlinked
+2020-4-1 8:29:39 -[READFROMCLINUX]- {SG-AL}preparing remote file /usr/home/dicomvix/move/susga.csv moving to ./data/WedApr012020SG-AL.csv
+2020-4-1 8:30:19 -[READFROMCLINUX]- {SG-AL}Succesfully DownLoaded
+2020-4-1 8:30:19 -[READFROMCLINUX]- {SG-AL}/usr/home/dicomvix/move/susga.csv  file unlinked
+2020-4-1 8:48:05 -[WRITETONEST]- Starting to read WedApr012020SG-AL.csv
+2020-4-1 8:48:05 -[WRITETONEST]- Starting executeAllTasks ./data/WedApr012020SG-AL.csv
+2020-4-1 8:48:06 -[WRITETONEST]- Truncated temp_indger
+2020-4-1 8:48:19 -[WRITETONEST]- Completed loading data into temp_indger
+2020-4-1 8:48:20 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2020-4-1 8:48:21 -[WRITETONEST]- Successfully  ./history/WedApr012020SG-AL.csv  moved
+2020-4-1 8:52:25 -[WRITETONEST]- Starting to read WedApr012020SG-AL.csv
+2020-4-1 8:52:25 -[WRITETONEST]- Starting executeAllTasks ./data/WedApr012020SG-AL.csv
+2020-4-1 8:52:27 -[WRITETONEST]- Truncated temp_indger
+2020-4-1 8:52:45 -[WRITETONEST]- Completed loading data into temp_indger
+2020-4-1 8:55:24 -[WRITETONEST]- Starting to read WedApr012020SG-AL.csv
+2020-4-1 8:55:24 -[WRITETONEST]- Starting executeAllTasks ./data/WedApr012020SG-AL.csv
+2020-4-1 8:55:26 -[WRITETONEST]- Truncated temp_indger
+2020-4-1 8:55:28 -[WRITETONEST]- Completed loading data into temp_indger
+2020-4-1 8:55:30 -[WRITETONEST]- Process on Database is completed and data were read from temp_indger
+2020-4-1 8:55:30 -[WRITETONEST]- Successfully  ./history/WedApr012020SG-AL.csv  moved
+2020-4-1 9:07:56 -[GENERATENESTKPI]- Trying to execute... select prWritePerformanceKPIClientMonth(14, 2020,3);
+2020-4-1 9:08:00 -[GENERATENESTKPI]- Client 14 at 3/2020 has been finished sucessfully..
+2020-4-1 9:12:31 -[WRITEANSTONEST]- There are no files to be read

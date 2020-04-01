@@ -1,0 +1,9 @@
+2020-4-1 8:25:17 -[READFROMCLINUX]- Erro ao obter parâmetros de acesso ao cliente: error: function prgetjsonclienthost(integer) does not exist
+    at Connection.parseE (C:\projetos\git\bi\copy-data\node_modules\pg\lib\connection.js:554:11)
+    at Connection.parseMessage (C:\projetos\git\bi\copy-data\node_modules\pg\lib\connection.js:381:17)
+    at Socket.<anonymous> (C:\projetos\git\bi\copy-data\node_modules\pg\lib\connection.js:117:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
