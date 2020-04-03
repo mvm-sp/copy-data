@@ -55,7 +55,7 @@ const client = new Client({
 client.connect()
 
 
-const executeAllTasks = (targetTable) => {
+ const executeAllTasks = (targetTable) =>  {
     console.log('Starting executeAllTasks', inputFile)
     return new Promise(function(resolve, reject) {
         setTimeout(function () {
@@ -94,12 +94,19 @@ const executeAllTasks = (targetTable) => {
                     });
                     query.on('end', () => {
                         console.log(`Process on Database is completed and data were read from ${targetTable}`);
-                        fs.rename(inputFile, destFile, function (err) {
-                            if (err){
-                                console.error('Can not move file ', inputFile, ' to ', destFile);
-                            } 
-                            console.log('Successfully ', destFile , ' moved')
-                          })
+                        console.log('Preparing to move ', inputFile ,' to ', destFile);
+                        new Promise(function(resolve, reject) {
+                            setTimeout(function () {
+                                fs.rename(inputFile, destFile, function (err) {
+                                    if (err){
+                                        console.log('Error: Check error log to details ', destFile , ' doesn´t be moved')
+                                        console.error('Can not move file ', inputFile, ' to ', destFile,' Description:', err);
+                                    }else{
+                                        console.log('Successfully ', destFile , ' moved')
+                                    } 
+                                  })
+                            },1000)
+                        }); 
                     });
                     client.end()
                     resolve('Promisse resolved on ', inputFile)
