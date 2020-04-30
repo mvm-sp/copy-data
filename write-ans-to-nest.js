@@ -48,11 +48,25 @@ console.error = function(...args) {
 };
 
 // Connecting to Database
-const client = new Client({
-    connectionString: conString,
-  })
- 
-client.connect()
+ //const client = new Client({
+ //   connectionString: conString,
+ //   statement_timeout: 10000
+ // });
+
+ var dbParam = {
+    user: user, 
+    database: db, 
+    password: pw, 
+    host: host, 
+    port: port, 
+    statement_timeout: 600000,
+    query_timeout: 600000
+  };
+  
+ const client = new Client(dbParam);
+
+
+client.connect();
 
 
  const executeAllTasks = (targetTable) =>  {
@@ -73,22 +87,28 @@ client.connect()
             }
             execute(targetTable, (err) =>{
                 if (err) return console.error(`Error in Truncate Table: ${err}`)
+                console.log(`Let's copy ${inputFile} to  ${targetTable} with 10 minutes limit`);
+                client.query('set statement_timeout to 600000;');
+                console.log(`Starting the upload`);
                 var stream = client.query(copyFrom(`COPY ${targetTable} FROM STDIN CSV DELIMITER ';' HEADER`));
                 var fileStream = fs.createReadStream(inputFile, { encoding: 'utf8' });
                 fileStream.on('error', (error) =>{
-                    console.error(`Error in creating read stream ${error} on ${inputFile}`);
+                    console.error(`Error in creating read stream ${error} from ${inputFile} on createReadStream command.`);
+                    client.end();
                     reject(error);
                 })
                 stream.on('error', (error) => {
-                    console.error(`Error in creating stream ${error} on ${inputFile}`);
+                    console.error(`Error in creating stream ${error} from ${inputFile} on copyFrom command.`);
+                    client.end();
                     reject(error);
                 })
                 stream.on('end', () => {
-                    console.log(`Completed loading data into ${targetTable}`)
+                    console.log(`Completed loading data into ${targetTable}, start the file reading process...`)
                     const query = client.query('select prProcessANS();', function(err) {
                         if (err) {
                           // same thing - probably need done(err) in here
-                          console.error(`Error reading from ${targetTable} on ${inputFile}`,err.message);      
+                          console.error(`Error reading from ${targetTable} on ${inputFile}`,err.message);  
+                          client.end();    
                           reject(err);
                         }
                     });
