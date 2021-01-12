@@ -30,6 +30,6 @@ ENDLOCAL
 GOTO:EOF
 
 :Syntax
-ECHO You neet to pass 2 parameter, first is the initial Code, the second is the final code:
+ECHO You need to pass 2 parameter, first is the initial Code, the second is the final code:
 ECHO processKPI 1 10
 ECHO Written by MVM
