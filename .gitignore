@@ -125,3 +125,4 @@ write-to-nest.exe
 
 data/
 log/
+log/process.log
