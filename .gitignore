@@ -126,3 +126,5 @@ write-to-nest.exe
 data/
 log/
 log/process.log
+get-from-clinux.exe
+log/process.log
